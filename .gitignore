@@ -43,7 +43,6 @@ backend/server.log
 # Temp files
 *.tmp
 start_*.py
-start_*.bat
 start_*.ps1
 start_*.cjs
 run_*.py

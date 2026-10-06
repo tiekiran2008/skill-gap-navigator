@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "iq-001",
+    "role": "AI/ML Engineer",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "What are Python decorators and how would you use them in an ML pipeline?",
+    "expected_concepts": ["higher-order functions", "wrapping functions", "logging", "timing", "authentication", "caching"],
+    "sample_answer_points": ["A decorator is a function that takes a function and returns a new function", "Used for cross-cutting concerns like logging, timing, caching", "In ML pipelines, decorators can time training steps or log parameters"]
+  },
+  {
+    "id": "iq-002",
+    "role": "AI/ML Engineer",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Explain the difference between generators and iterators in Python. When would you use generators for large datasets?",
+    "expected_concepts": ["lazy evaluation", "memory efficiency", "yield keyword", "iterator protocol", "streaming data"],
+    "sample_answer_points": ["Generators produce items one at a time using yield", "They are memory efficient for large datasets", "Iterators implement __iter__ and __next__ methods", "Generators are ideal for streaming large files or datasets"]
+  },
+  {
+    "id": "iq-003",
+    "role": "AI/ML Engineer",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you implement a custom PyTorch Dataset class for handling variable-length sequences with padding?",
+    "expected_concepts": ["__getitem__", "__len__", "collate function", "padding", "masking", "batch processing"],
+    "sample_answer_points": ["Override __getitem__ and __len__", "Use collate_fn for custom batching", "Pad sequences to max length in batch", "Return attention masks for padded positions"]
+  },
+  {
+    "id": "iq-004",
+    "role": "Data Scientist",
+    "skill": "SQL",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "Write a query to find the top 5 customers by total order value, including their name and total spent.",
+    "expected_concepts": ["JOIN", "GROUP BY", "ORDER BY", "SUM", "LIMIT"],
+    "sample_answer_points": ["JOIN customers and orders tables", "GROUP BY customer", "SUM the order amounts", "ORDER BY total DESC", "LIMIT 5"]
+  },
+  {
+    "id": "iq-005",
+    "role": "Data Scientist",
+    "skill": "SQL",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Explain window functions in SQL. Give an example of using ROW_NUMBER() vs RANK().",
+    "expected_concepts": ["window functions", "partition", "order by", "ROW_NUMBER", "RANK", "DENSE_RANK", "over clause"],
+    "sample_answer_points": ["Window functions perform calculations across related rows", "ROW_NUMBER assigns unique sequential numbers", "RANK allows gaps for ties", "DENSE_RANK has no gaps", "OVER clause defines the window"]
+  },
+  {
+    "id": "iq-006",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "What is the bias-variance tradeoff? How does it relate to model complexity?",
+    "expected_concepts": ["bias", "variance", "overfitting", "underfitting", "model complexity", "generalization"],
+    "sample_answer_points": ["Bias is error from oversimplifying assumptions", "Variance is error from sensitivity to training data", "High bias = underfitting, high variance = overfitting", "Goal is to find optimal complexity that minimizes total error"]
+  },
+  {
+    "id": "iq-007",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Compare and contrast L1 and L2 regularization. When would you prefer one over the other?",
+    "expected_concepts": ["L1 regularization", "L2 regularization", "sparsity", "feature selection", "Ridge", "Lasso", "Elastic Net"],
+    "sample_answer_points": ["L1 (Lasso) adds absolute value penalty, promotes sparsity", "L2 (Ridge) adds squared penalty, shrinks coefficients evenly", "Use L1 when you want feature selection", "Use L2 when you expect many small but non-zero effects", "Elastic Net combines both"]
+  },
+  {
+    "id": "iq-008",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you handle a dataset with 99% class imbalance? Walk through your approach.",
+    "expected_concepts": ["resampling", "SMOTE", "class weights", "precision-recall", "F1", "AUC-ROC", "ensemble methods", "threshold tuning"],
+    "sample_answer_points": ["Evaluate with appropriate metrics (F1, AUC-PR not accuracy)", "Try class weights in the model", "Resample: oversample minority or undersample majority", "Use SMOTE for synthetic minority samples", "Try ensemble methods like BalancedRandomForest", "Tune decision threshold"]
+  },
+  {
+    "id": "iq-009",
+    "role": "Backend Developer",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How does Python's GIL affect multi-threaded programs? When is it a problem and when is it not?",
+    "expected_concepts": ["GIL", "thread safety", "CPU-bound", "I/O-bound", "multiprocessing", "asyncio"],
+    "sample_answer_points": ["GIL allows only one thread to execute Python bytecode at a time", "Problematic for CPU-bound tasks", "Not an issue for I/O-bound tasks", "Use multiprocessing for CPU-bound work", "Use asyncio for I/O-bound concurrency"]
+  },
+  {
+    "id": "iq-010",
+    "role": "Backend Developer",
+    "skill": "FastAPI",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "What are the advantages of FastAPI over Flask or Django for building ML APIs?",
+    "expected_concepts": ["async support", "automatic validation", "type hints", "OpenAPI docs", "performance", "dependency injection"],
+    "sample_answer_points": ["Native async support for high concurrency", "Automatic request validation with Pydantic", "Auto-generated OpenAPI documentation", "High performance comparable to Node.js", "Built-in dependency injection"]
+  },
+  {
+    "id": "iq-011",
+    "role": "Backend Developer",
+    "skill": "FastAPI",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement rate limiting and authentication in a FastAPI ML serving API?",
+    "expected_concepts": ["middleware", "API keys", "JWT tokens", "rate limiting", "OAuth2", "dependency injection"],
+    "sample_answer_points": ["Use middleware for rate limiting (e.g., sliding window)", "Implement API key or JWT authentication", "Use FastAPI's OAuth2PasswordBearer", "Add custom dependencies for auth checks", "Return 429 for rate limit exceeded"]
+  },
+  {
+    "id": "iq-012",
+    "role": "Full Stack Developer",
+    "skill": "React",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "Explain the React component lifecycle. What happens during mounting, updating, and unmounting?",
+    "expected_concepts": ["mounting", "updating", "unmounting", "useEffect", "useState", "cleanup"],
+    "sample_answer_points": ["Mounting: component appears in DOM, useEffect with [] runs", "Updating: state/props change triggers re-render", "Unmounting: component removed, cleanup functions run", "useEffect dependencies control when effects re-run"]
+  },
+  {
+    "id": "iq-013",
+    "role": "Full Stack Developer",
+    "skill": "React",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you optimize a React dashboard that re-renders too frequently with large datasets?",
+    "expected_concepts": ["useMemo", "useCallback", "React.memo", "virtualization", "pagination", "code splitting"],
+    "sample_answer_points": ["Use React.memo for expensive components", "Memoize computed values with useMemo", "Stabilize callbacks with useCallback", "Use react-window for virtualized lists", "Implement pagination or infinite scroll", "Code split with React.lazy"]
+  },
+  {
+    "id": "iq-014",
+    "role": "Full Stack Developer",
+    "skill": "React",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "Design a real-time dashboard that displays ML model predictions. How would you handle WebSocket connections and state updates?",
+    "expected_concepts": ["WebSocket", "useEffect cleanup", "state management", "reconnection", "error handling", "performance"],
+    "sample_answer_points": ["Establish WebSocket connection in useEffect", "Clean up on unmount", "Handle reconnection with exponential backoff", "Use useReducer for complex state updates", "Throttle updates to prevent excessive re-renders"]
+  },
+  {
+    "id": "iq-015",
+    "role": "Computer Vision Engineer",
+    "skill": "Computer Vision",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "Explain the difference between image classification, object detection, and semantic segmentation.",
+    "expected_concepts": ["classification", "detection", "segmentation", "bounding boxes", "pixel-level", "image-level"],
+    "sample_answer_points": ["Classification: one label per entire image", "Detection: bounding boxes + labels for objects", "Semantic segmentation: pixel-level classification", "Instance segmentation: separate instances of same class"]
+  },
+  {
+    "id": "iq-016",
+    "role": "Computer Vision Engineer",
+    "skill": "Computer Vision",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How does data augmentation help in computer vision? Describe techniques you would use for a medical imaging dataset.",
+    "expected_concepts": ["rotation", "flipping", "cropping", "color jitter", "elastic deformation", "MixUp", "CutMix"],
+    "sample_answer_points": ["Increases effective training set size", "Reduces overfitting", "For medical: rotation, flipping, elastic deformation", "Avoid augmentations that change clinical meaning", "MixUp and CutMix for regularization"]
+  },
+  {
+    "id": "iq-017",
+    "role": "Computer Vision Engineer",
+    "skill": "Computer Vision",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "Explain how a Region-based CNN (R-CNN) works for object detection. How has it evolved through Fast R-CNN and Faster R-CNN?",
+    "expected_concepts": ["region proposals", "ROI pooling", "anchor boxes", "RPN", "shared computation", "end-to-end"],
+    "sample_answer_points": ["R-CNN: selective search + CNN per region (slow)", "Fast R-CNN: shared CNN, ROI pooling", "Faster R-CNN: Region Proposal Network replaces selective search", "Evolution focuses on eliminating bottlenecks"]
+  },
+  {
+    "id": "iq-018",
+    "role": "NLP Engineer",
+    "skill": "NLP",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "What is tokenization and why is it important in NLP? Compare word-level and subword tokenization.",
+    "expected_concepts": ["tokenization", "word-level", "subword", "BPE", "WordPiece", "vocabulary", "out-of-vocabulary"],
+    "sample_answer_points": ["Tokenization splits text into processable units", "Word-level: one token per word, large vocab", "Subword (BPE/WordPiece): handles rare words, smaller vocab", "Subword is standard for modern NLP models"]
+  },
+  {
+    "id": "iq-019",
+    "role": "NLP Engineer",
+    "skill": "NLP",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Explain the Transformer architecture. What makes self-attention powerful compared to RNNs?",
+    "expected_concepts": ["self-attention", "multi-head attention", "positional encoding", "parallelism", "long-range dependencies", "transformer"],
+    "sample_answer_points": ["Self-attention computes relationships between all tokens simultaneously", "Multi-head attention captures different types of relationships", "Positional encoding adds sequence order information", "Enables parallelization (unlike RNNs)", "Better at capturing long-range dependencies"]
+  },
+  {
+    "id": "iq-020",
+    "role": "NLP Engineer",
+    "skill": "NLP",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you fine-tune a pre-trained BERT model for a text classification task with limited labeled data?",
+    "expected_concepts": ["fine-tuning", "transfer learning", "learning rate", "warmup", "freezing layers", "data augmentation", "few-shot"],
+    "sample_answer_points": ["Start with pre-trained BERT weights", "Use a small learning rate (2e-5 to 5e-5)", "Freeze lower layers initially, unfreeze gradually", "Use warmup scheduler", "Augment data with paraphrasing or synonym replacement", "Consider few-shot learning techniques"]
+  },
+  {
+    "id": "iq-021",
+    "role": "Deep Learning",
+    "skill": "Deep Learning",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "What is backpropagation? Explain the chain rule in the context of neural network training.",
+    "expected_concepts": ["chain rule", "gradients", "loss function", "forward pass", "backward pass", "weight update"],
+    "sample_answer_points": ["Backpropagation computes gradients layer by layer", "Chain rule: derivative of composite function", "Forward pass: compute predictions and loss", "Backward pass: propagate error gradients", "Update weights using gradients and learning rate"]
+  },
+  {
+    "id": "iq-022",
+    "role": "Deep Learning",
+    "skill": "Deep Learning",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Compare Batch Normalization and Layer Normalization. When would you use each?",
+    "expected_concepts": ["batch normalization", "layer normalization", "internal covariate shift", "training stability", "sequence models"],
+    "sample_answer_points": ["BatchNorm: normalizes across batch dimension", "LayerNorm: normalizes across feature dimension", "BatchNorm good for CNNs and fixed-size inputs", "LayerNorm preferred for transformers and variable-length sequences", "BatchNorm depends on batch size, LayerNorm does not"]
+  },
+  {
+    "id": "iq-023",
+    "role": "Deep Learning",
+    "skill": "Deep Learning",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you design a multi-task learning system that shares representations between related tasks?",
+    "expected_concepts": ["shared layers", "task-specific heads", "loss weighting", "gradient conflicts", "hard/soft parameter sharing"],
+    "sample_answer_points": ["Share bottom layers for common features", "Add task-specific heads for each task", "Weight losses to balance task contributions", "Monitor for gradient conflicts between tasks", "Use hard sharing (shared layers) or soft sharing (regularization)"]
+  },
+  {
+    "id": "iq-024",
+    "role": "AI/ML Engineer",
+    "skill": "PyTorch",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "Explain the difference between torch.tensor and torch.Tensor. What is autograd?",
+    "expected_concepts": ["tensor", "autograd", "gradients", "requires_grad", "backward", "computational graph"],
+    "sample_answer_points": ["torch.tensor is a function, torch.Tensor is a class", "Autograd automatically computes gradients", "requires_grad=True enables gradient tracking", "backward() computes gradients for all operations"]
+  },
+  {
+    "id": "iq-025",
+    "role": "AI/ML Engineer",
+    "skill": "PyTorch",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement mixed-precision training in PyTorch to reduce memory usage?",
+    "expected_concepts": ["AMP", "float16", "GradScaler", "loss scaling", "memory optimization"],
+    "sample_answer_points": ["Use torch.cuda.amp.autocast() for forward pass", "Use GradScaler for loss scaling to prevent underflow", "Computes in float16, accumulates in float32", "Reduces memory usage and speeds up training", "Watch for numerical instability with very small values"]
+  },
+  {
+    "id": "iq-026",
+    "role": "AI/ML Engineer",
+    "skill": "PyTorch",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "Design a custom PyTorch training loop with gradient accumulation for training large models on limited GPU memory.",
+    "expected_concepts": ["gradient accumulation", "zero_grad", "scaler", "effective batch size", "checkpointing"],
+    "sample_answer_points": ["Accumulate gradients over multiple micro-batches", "Only step optimizer after N accumulation steps", "Use torch.cuda.amp for mixed precision", "Apply gradient clipping for stability", "Use gradient checkpointing to reduce memory"]
+  },
+  {
+    "id": "iq-027",
+    "role": "AI/ML Engineer",
+    "skill": "Docker",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "Why would you containerize a machine learning model? What are the benefits?",
+    "expected_concepts": ["reproducibility", "isolation", "deployment", "dependency management", "scaling"],
+    "sample_answer_points": ["Ensures consistent environment across dev/prod", "Isolates dependencies from host system", "Easy to deploy and scale", "Simplifies dependency management", "Enables CI/CD pipelines"]
+  },
+  {
+    "id": "iq-028",
+    "role": "AI/ML Engineer",
+    "skill": "Docker",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Write a Dockerfile for a Python ML API. How would you optimize the image size?",
+    "expected_concepts": ["multi-stage build", "slim images", "layer caching", "requirements.txt", "non-root user"],
+    "sample_answer_points": ["Use python:3.11-slim as base image", "Copy requirements first for layer caching", "Install dependencies before copying code", "Use multi-stage builds to reduce size", "Run as non-root user for security"]
+  },
+  {
+    "id": "iq-029",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you set up Docker Compose for a microservices architecture with a FastAPI backend, Redis cache, and PostgreSQL database?",
+    "expected_concepts": ["docker-compose", "services", "networks", "volumes", "health checks", "environment variables"],
+    "sample_answer_points": ["Define separate services for each component", "Use named volumes for data persistence", "Configure health checks for service dependencies", "Use environment variables for configuration", "Set up internal Docker network for communication"]
+  },
+  {
+    "id": "iq-030",
+    "role": "DevOps Engineer",
+    "skill": "Cloud",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "What is the difference between IaaS, PaaS, and SaaS? Give examples of each.",
+    "expected_concepts": ["IaaS", "PaaS", "SaaS", "AWS", "Azure", "GCP", "managed services"],
+    "sample_answer_points": ["IaaS: raw infrastructure (EC2, GCE)", "PaaS: platform for apps (Heroku, App Engine)", "SaaS: ready-to-use software (Gmail, Salesforce)", "Trade-off between control and management overhead"]
+  },
+  {
+    "id": "iq-031",
+    "role": "DevOps Engineer",
+    "skill": "Cloud",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Design a scalable ML inference system on AWS. What services would you use and why?",
+    "expected_concepts": ["SageMaker", "Lambda", "ECS/EKS", "ALB", "Auto Scaling", "CloudWatch", "S3"],
+    "sample_answer_points": ["Use SageMaker for managed model hosting or ECS for custom containers", "Application Load Balancer for traffic distribution", "Auto Scaling for handling traffic spikes", "S3 for model artifacts", "CloudWatch for monitoring and alerts", "Lambda for lightweight preprocessing"]
+  },
+  {
+    "id": "iq-032",
+    "role": "DevOps Engineer",
+    "skill": "Cloud",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you implement a CI/CD pipeline for an ML model that includes data validation, model training, evaluation, and deployment?",
+    "expected_concepts": ["CI/CD", "ML pipeline", "data validation", "model registry", "A/B testing", "rollback"],
+    "sample_answer_points": ["Stage 1: Data validation and quality checks", "Stage 2: Model training with versioned data", "Stage 3: Automated evaluation against baseline", "Stage 4: Model registry and approval gate", "Stage 5: Gradual rollout with A/B testing", "Automatic rollback on performance degradation"]
+  },
+  {
+    "id": "iq-033",
+    "role": "AI Agent Engineer",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement a tool-calling system for an LLM agent? Describe the architecture.",
+    "expected_concepts": ["function calling", "tool definitions", "JSON schema", "execution loop", "error handling"],
+    "sample_answer_points": ["Define tools with JSON schema descriptions", "Parse LLM tool call responses", "Execute tools and return results to LLM", "Implement retry and error handling", "Manage conversation context across tool calls"]
+  },
+  {
+    "id": "iq-034",
+    "role": "AI Agent Engineer",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "Design a multi-agent system where agents collaborate to solve complex tasks. How would you handle communication and state management?",
+    "expected_concepts": ["agent orchestration", "message passing", "shared state", "task decomposition", "conflict resolution"],
+    "sample_answer_points": ["Define agent roles and capabilities", "Implement message passing protocol", "Use shared state store or event bus", "Decompose tasks into subtasks", "Handle conflicts through priority or voting"]
+  },
+  {
+    "id": "iq-035",
+    "role": "AI/ML Engineer",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Explain the concept of A/B testing for ML models. How do you determine statistical significance?",
+    "expected_concepts": ["A/B testing", "control group", "treatment group", "p-value", "confidence interval", "sample size"],
+    "sample_answer_points": ["Split users into control (old model) and treatment (new model)", "Define primary metric (accuracy, CTR, revenue)", "Calculate required sample size for significance", "Run test for sufficient duration", "Use t-test or chi-squared for significance", "Check for novelty effects and carryover"]
+  },
+  {
+    "id": "iq-036",
+    "role": "AI/ML Engineer",
+    "skill": "Machine Learning",
+    "category": "scenario",
+    "difficulty": "Intermediate",
+    "question": "Your model has 95% accuracy but the business says it's not useful. What could be wrong?",
+    "expected_concepts": ["class imbalance", "wrong metric", "business alignment", "false positives vs negatives", "cost-sensitive"],
+    "sample_answer_points": ["Accuracy can be misleading with class imbalance", "Need to understand business costs of errors", "Maybe false negatives are very costly", "Should optimize for the right metric (precision, recall, F1, AUC)", "Need to align model objective with business goal"]
+  },
+  {
+    "id": "iq-037",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "scenario",
+    "difficulty": "Advanced",
+    "question": "You're building a recommendation system. The offline metrics look great but online metrics are poor. What could explain this gap?",
+    "expected_concepts": ["data leakage", "distribution shift", "position bias", "cold start", "evaluation methodology"],
+    "sample_answer_points": ["Training data may have leakage from future interactions", "Online distribution differs from training distribution", "Position bias in offline evaluation", "Cold start for new users/items", "Need better offline evaluation that mimics online conditions"]
+  },
+  {
+    "id": "iq-038",
+    "role": "Backend Developer",
+    "skill": "FastAPI",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "Describe how you would deploy a FastAPI ML serving endpoint that handles both real-time and batch predictions.",
+    "expected_concepts": ["endpoints", "background tasks", "queue", "caching", "load balancing", "monitoring"],
+    "sample_answer_points": ["Real-time: synchronous endpoint with model loaded in memory", "Batch: async endpoint with background task processing", "Use Redis queue for batch job management", "Implement response caching for repeated inputs", "Add Prometheus metrics for monitoring"]
+  },
+  {
+    "id": "iq-039",
+    "role": "Full Stack Developer",
+    "skill": "FastAPI",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you implement WebSocket support in FastAPI for real-time model prediction updates?",
+    "expected_concepts": ["WebSocket", "connection manager", "async", "broadcasting", "connection lifecycle"],
+    "sample_answer_points": ["Use FastAPI WebSocket endpoint", "Implement connection manager for tracking clients", "Broadcast predictions to connected clients", "Handle connection/disconnection gracefully", "Use async for non-blocking operations"]
+  },
+  {
+    "id": "iq-040",
+    "role": "AI/ML Engineer",
+    "skill": "Docker",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "You have a model that takes 2GB of GPU memory. How would you containerize it for production deployment?",
+    "expected_concepts": ["GPU support", "nvidia-docker", "resource limits", "memory management", "model optimization"],
+    "sample_answer_points": ["Use nvidia/cuda base image", "Install CUDA-compatible PyTorch", "Set GPU resource limits", "Consider model quantization to reduce memory", "Use multi-stage build to minimize image size"]
+  },
+  {
+    "id": "iq-041",
+    "role": "AI/ML Engineer",
+    "skill": "Cloud",
+    "category": "project",
+    "difficulty": "Advanced",
+    "question": "Design a real-time fraud detection system that processes 10,000 transactions per second. What's your architecture?",
+    "expected_concepts": ["streaming", "Kafka", "feature store", "low latency", "model serving", "monitoring"],
+    "sample_answer_points": ["Kafka for streaming transaction data", "Feature store for real-time feature computation", "Lightweight model for sub-100ms inference", "Model serving with auto-scaling", "Alerting pipeline for detected fraud", "Feedback loop for model improvement"]
+  },
+  {
+    "id": "iq-042",
+    "role": "Data Scientist",
+    "skill": "SQL",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you optimize a slow SQL query that joins multiple large tables? Walk through your approach.",
+    "expected_concepts": ["query optimization", "indexes", "EXPLAIN", "partitioning", "denormalization", "CTEs"],
+    "sample_answer_points": ["Run EXPLAIN to understand query plan", "Add appropriate indexes on join columns", "Consider partitioning large tables", "Use CTEs for readability and potential optimization", "Evaluate if denormalization would help", "Consider materialized views for complex aggregations"]
+  },
+  {
+    "id": "iq-043",
+    "role": "NLP Engineer",
+    "skill": "NLP",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you evaluate a text summarization model? What metrics would you use?",
+    "expected_concepts": ["ROUGE", "BLEU", "BERTScore", "human evaluation", "readability", "factual consistency"],
+    "sample_answer_points": ["ROUGE-1, ROUGE-2, ROUGE-L for overlap metrics", "BERTScore for semantic similarity", "Human evaluation for quality and factual consistency", "Readability scores for fluency", "Consider both intrinsic and extrinsic evaluation"]
+  },
+  {
+    "id": "iq-044",
+    "role": "NLP Engineer",
+    "skill": "NLP",
+    "category": "scenario",
+    "difficulty": "Advanced",
+    "question": "Your sentiment analysis model performs well on reviews but poorly on tweets. How would you diagnose and fix this?",
+    "expected_concepts": ["domain adaptation", "data augmentation", "transfer learning", "error analysis", "distribution shift"],
+    "sample_answer_points": ["Analyze error patterns: what types of tweets fail?", "Domain shift: reviews are formal, tweets are informal", "Collect or augment tweet-specific training data", "Fine-tune on tweet data", "Consider domain adaptation techniques", "Handle tweet-specific features (hashtags, mentions, slang)"]
+  },
+  {
+    "id": "iq-045",
+    "role": "Computer Vision Engineer",
+    "skill": "Computer Vision",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Explain the concept of transfer learning in computer vision. How would you adapt a pre-trained ResNet for a medical imaging task?",
+    "expected_concepts": ["pre-trained models", "fine-tuning", "feature extraction", "domain adaptation", "few-shot learning"],
+    "sample_answer_points": ["Start with ImageNet pre-trained ResNet", "Replace final classification layer", "Freeze early layers, fine-tune later layers", "Use small learning rate for fine-tuning", "Consider domain-specific data augmentation"]
+  },
+  {
+    "id": "iq-046",
+    "role": "Computer Vision Engineer",
+    "skill": "Computer Vision",
+    "category": "project",
+    "difficulty": "Advanced",
+    "question": "You need to build a real-time object detection system for autonomous vehicles. What are the key considerations?",
+    "expected_concepts": ["latency", "accuracy", "edge deployment", "TensorRT", "model optimization", "safety"],
+    "sample_answer_points": ["Ultra-low latency requirements (<50ms)", "High accuracy for safety-critical decisions", "Edge deployment on vehicle hardware", "Use TensorRT for optimization", "Model quantization for faster inference", "Redundancy and fail-safe mechanisms"]
+  },
+  {
+    "id": "iq-047",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "behavioral",
+    "difficulty": "Intermediate",
+    "question": "Tell me about a time you had to explain a complex ML concept to a non-technical stakeholder. How did you approach it?",
+    "expected_concepts": ["communication", "simplification", "analogies", "visualization", "stakeholder management"],
+    "sample_answer_points": ["Identified what the stakeholder needed to know", "Used analogies and visualizations", "Focused on business impact rather than technical details", "Checked understanding with follow-up questions", "Adapted communication style to audience"]
+  },
+  {
+    "id": "iq-048",
+    "role": "Backend Developer",
+    "skill": "Python",
+    "category": "behavioral",
+    "difficulty": "Intermediate",
+    "question": "Describe a situation where you had to debug a production issue under pressure. What was your approach?",
+    "expected_concepts": ["debugging", "problem solving", "communication", "incident response", "root cause analysis"],
+    "sample_answer_points": ["Stayed calm and systematic", "Checked logs and monitoring dashboards", "Reproduced the issue in staging", "Identified root cause through elimination", "Implemented fix and verified", "Documented incident and preventive measures"]
+  },
+  {
+    "id": "iq-049",
+    "role": "AI/ML Engineer",
+    "skill": "Deep Learning",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Explain the concept of attention mechanism in neural networks. How does it improve sequence-to-sequence models?",
+    "expected_concepts": ["attention", "context vector", "alignment", "self-attention", "decoder", "encoder"],
+    "sample_answer_points": ["Attention allows model to focus on relevant parts of input", "Computes weighted sum of encoder states", "Eliminates information bottleneck of fixed context vector", "Enables model to learn alignments between input and output", "Foundation for Transformer architecture"]
+  },
+  {
+    "id": "iq-050",
+    "role": "AI/ML Engineer",
+    "skill": "Deep Learning",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you implement knowledge distillation to create a smaller, faster model from a large teacher model?",
+    "expected_concepts": ["knowledge distillation", "soft labels", "temperature", "student model", "teacher model"],
+    "sample_answer_points": ["Train teacher model first (large, accurate)", "Use teacher's soft probabilities as targets", "Apply temperature scaling to soften distributions", "Train student model to match soft labels", "Balance between soft labels and ground truth", "Evaluate student's accuracy vs size trade-off"]
+  },
+  {
+    "id": "iq-051",
+    "role": "AI Agent Engineer",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement retrieval-augmented generation (RAG) for an LLM-based agent?",
+    "expected_concepts": ["RAG", "vector database", "embeddings", "retrieval", "context injection", "chunking"],
+    "sample_answer_points": ["Index documents with embeddings in vector database", "Retrieve relevant chunks based on query similarity", "Inject retrieved context into LLM prompt", "Handle chunk size and overlap", "Evaluate retrieval quality and relevance"]
+  },
+  {
+    "id": "iq-052",
+    "role": "AI Agent Engineer",
+    "skill": "NLP",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "Design an AI agent that can autonomously write and execute code to solve data analysis tasks. What are the key components?",
+    "expected_concepts": ["code generation", "sandboxed execution", "error recovery", "iterative refinement", "tool use"],
+    "sample_answer_points": ["Code generation from natural language", "Sandboxed execution environment", "Error detection and self-correction", "Iterative refinement loop", "Result validation and explanation", "Safety measures for code execution"]
+  },
+  {
+    "id": "iq-053",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "What is the difference between WHERE and HAVING clauses? Give an example of when to use each.",
+    "expected_concepts": ["WHERE", "HAVING", "GROUP BY", "filtering", "aggregation"],
+    "sample_answer_points": ["WHERE filters rows before grouping", "HAVING filters groups after aggregation", "WHERE cannot use aggregate functions", "HAVING can use aggregate functions", "Example: WHERE for individual records, HAVING for group totals"]
+  },
+  {
+    "id": "iq-054",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Write a query to calculate the month-over-month growth rate of revenue. How would you handle the first month?",
+    "expected_concepts": ["window functions", "LAG", "date truncation", "growth rate", "null handling"],
+    "sample_answer_points": ["Truncate dates to month level", "Use LAG to get previous month's revenue", "Calculate growth as (current - previous) / previous", "Handle NULL for first month (no previous data)", "Format as percentage for readability"]
+  },
+  {
+    "id": "iq-055",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "How would you use pandas to clean a messy dataset? Describe your approach.",
+    "expected_concepts": ["missing values", "duplicates", "data types", "outliers", "validation"],
+    "sample_answer_points": ["Check for missing values and decide on strategy (drop/fill)", "Remove or investigate duplicates", "Convert data types as needed", "Identify and handle outliers", "Validate data against business rules"]
+  },
+  {
+    "id": "iq-056",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Explain how you would create an interactive dashboard using Python. What libraries would you choose?",
+    "expected_concepts": ["Streamlit", "Dash", "Plotly", "interactive", "real-time updates"],
+    "sample_answer_points": ["Streamlit for quick prototyping", "Dash for more complex dashboards", "Plotly for interactive visualizations", "Consider data size and update frequency", "Add filters and controls for user interaction"]
+  },
+  {
+    "id": "iq-057",
+    "role": "Backend Developer",
+    "skill": "Git",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "Explain the difference between git merge and git rebase. When would you use each?",
+    "expected_concepts": ["merge", "rebase", "history", "conflicts", "linear history"],
+    "sample_answer_points": ["Merge preserves history and creates merge commit", "Rebase creates linear history by replaying commits", "Use merge for shared branches", "Use rebase for cleaning up local history", "Rebase avoids unnecessary merge commits"]
+  },
+  {
+    "id": "iq-058",
+    "role": "Backend Developer",
+    "skill": "Git",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you handle a large binary file in a Git repository? What are the alternatives?",
+    "expected_concepts": ["Git LFS", ".gitignore", "external storage", "repository size", "clone time"],
+    "sample_answer_points": ["Use Git LFS for large files", "Add binary files to .gitignore and store externally", "Consider artifact storage (S3, Artifactory)", "Large files bloat repository and slow clones", "LFS stores pointers in repo, actual files separately"]
+  },
+  {
+    "id": "iq-059",
+    "role": "AI/ML Engineer",
+    "skill": "Python",
+    "category": "scenario",
+    "difficulty": "Advanced",
+    "question": "Your ML pipeline processes 1 million records daily. The processing time has increased from 2 hours to 8 hours. How would you diagnose and fix the issue?",
+    "expected_concepts": ["profiling", "parallelization", "memory management", "data pipeline optimization", "monitoring"],
+    "sample_answer_points": ["Profile the pipeline to find bottlenecks", "Check if data volume has changed", "Look for memory leaks or excessive garbage collection", "Consider parallelizing independent steps", "Implement caching for repeated computations", "Add monitoring and alerting"]
+  },
+  {
+    "id": "iq-060",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Beginner",
+    "question": "What is cross-validation and why is it important? Explain k-fold cross-validation.",
+    "expected_concepts": ["cross-validation", "overfitting", "generalization", "k-fold", "validation set"],
+    "sample_answer_points": ["Cross-validation estimates model performance on unseen data", "K-fold splits data into k parts, trains on k-1, tests on 1", "Rotate through all folds as test set", "Average results for more reliable estimate", "Prevents overfitting to a single train/test split"]
+  },
+  {
+    "id": "iq-061",
+    "role": "Deep Learning",
+    "skill": "PyTorch",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement a custom learning rate scheduler in PyTorch? Compare with built-in schedulers.",
+    "expected_concepts": ["learning rate scheduler", "StepLR", "CosineAnnealing", "ReduceLROnPlateau", "warmup"],
+    "sample_answer_points": ["Override LambdaLR or create custom scheduler", "StepLR: step decay at fixed intervals", "CosineAnnealing: smooth decay", "ReduceLROnPlateau: decay on metric plateau", "Warmup: start small, increase to target LR"]
+  },
+  {
+    "id": "iq-062",
+    "role": "Deep Learning",
+    "skill": "PyTorch",
+    "category": "project",
+    "difficulty": "Advanced",
+    "question": "You need to train a model on a dataset that doesn't fit in memory. How would you implement efficient data loading in PyTorch?",
+    "expected_concepts": ["Dataset", "DataLoader", "memory mapping", "lazy loading", "num_workers", "prefetching"],
+    "sample_answer_points": ["Implement custom Dataset with lazy loading", "Use memory mapping for large files", "Configure DataLoader with multiple workers", "Use pin_memory for faster GPU transfer", "Implement prefetching in background threads"]
+  },
+  {
+    "id": "iq-063",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you implement Docker image scanning in a CI/CD pipeline to detect vulnerabilities?",
+    "expected_concepts": ["image scanning", "Trivy", "Snyk", "vulnerability databases", "policy enforcement"],
+    "sample_answer_points": ["Integrate Trivy or Snyk in CI pipeline", "Scan base images and dependencies", "Define vulnerability severity thresholds", "Fail build on critical vulnerabilities", "Regularly scan existing images in registry", "Automate patching process"]
+  },
+  {
+    "id": "iq-064",
+    "role": "AI Agent Engineer",
+    "skill": "FastAPI",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you build a streaming API endpoint that returns LLM tokens as they're generated?",
+    "expected_concepts": ["Server-Sent Events", "streaming", "async generator", "token generation", "connection management"],
+    "sample_answer_points": ["Use StreamingResponse with async generator", "Yield tokens as they're generated", "Handle client disconnection gracefully", "Implement proper error handling", "Consider rate limiting and timeouts"]
+  },
+  {
+    "id": "iq-065",
+    "role": "AI Agent Engineer",
+    "skill": "Docker",
+    "category": "project",
+    "difficulty": "Advanced",
+    "question": "Design a multi-agent system where each agent runs in its own Docker container. How would you handle inter-agent communication?",
+    "expected_concepts": ["microservices", "message queue", "gRPC", "service discovery", "container orchestration"],
+    "sample_answer_points": ["Use message queue (Redis/RabbitMQ) for async communication", "Implement service discovery for agent registration", "Use gRPC for synchronous inter-agent calls", "Consider Kubernetes for orchestration", "Implement health checks and auto-restart"]
+  },
+  {
+    "id": "iq-066",
+    "role": "AI/ML Engineer",
+    "skill": "Cloud",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you set up model versioning and rollback capabilities in a cloud ML deployment?",
+    "expected_concepts": ["model registry", "versioning", "A/B testing", "rollback", "canary deployment"],
+    "sample_answer_points": ["Use model registry (MLflow, SageMaker)", "Version models with metadata", "Implement canary or shadow deployment", "Monitor model performance metrics", "Automate rollback on degradation"]
+  },
+  {
+    "id": "iq-067",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "Explain feature engineering techniques for time series data. What features would you create?",
+    "expected_concepts": ["lag features", "rolling statistics", "seasonality", "trend", "interaction features"],
+    "sample_answer_points": ["Lag features: previous time step values", "Rolling statistics: mean, std over window", "Time-based features: hour, day, month", "Trend and seasonality decomposition", "Interaction features between variables"]
+  },
+  {
+    "id": "iq-068",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "scenario",
+    "difficulty": "Intermediate",
+    "question": "Your model is biased against a protected group. How would you identify and mitigate this bias?",
+    "expected_concepts": ["fairness", "bias detection", "protected attributes", "demographic parity", "equalized odds"],
+    "sample_answer_points": ["Define fairness metric relevant to use case", "Analyze performance across demographic groups", "Check for representation in training data", "Apply preprocessing, in-processing, or post-processing mitigation", "Validate mitigation doesn't hurt other groups"]
+  },
+  {
+    "id": "iq-069",
+    "role": "Full Stack Developer",
+    "skill": "React",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you implement optimistic updates in a React application for better UX?",
+    "expected_concepts": ["optimistic updates", "state management", "rollback", "user feedback", "error handling"],
+    "sample_answer_points": ["Update UI immediately before API response", "Store previous state for rollback", "Show loading indicator", "Rollback on API failure", "Handle conflicts with server state"]
+  },
+  {
+    "id": "iq-070",
+    "role": "Full Stack Developer",
+    "skill": "React",
+    "category": "project",
+    "difficulty": "Advanced",
+    "question": "Design a form with complex validation rules in React. How would you handle async validation (e.g., checking username availability)?",
+    "expected_concepts": ["form validation", "async validation", "debouncing", "error states", "Formik", "React Hook Form"],
+    "sample_answer_points": ["Use Formik or React Hook Form for form management", "Implement sync validation rules", "Add async validation with debouncing", "Show validation errors in real-time", "Handle loading states for async checks", "Validate on blur vs on change"]
+  },
+  {
+    "id": "iq-071",
+    "role": "Backend Developer",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you implement rate limiting in a FastAPI application? Compare different approaches.",
+    "expected_concepts": ["sliding window", "token bucket", "fixed window", "Redis", "middleware"],
+    "sample_answer_points": ["Token bucket: allows bursts, smooth rate", "Sliding window: more accurate than fixed window", "Fixed window: simple but can allow bursts at window edges", "Use Redis for distributed rate limiting", "Implement as FastAPI middleware"]
+  },
+  {
+    "id": "iq-072",
+    "role": "Backend Developer",
+    "skill": "Python",
+    "category": "scenario",
+    "difficulty": "Intermediate",
+    "question": "You need to process a CSV file with 10 million rows. How would you handle this efficiently in Python?",
+    "expected_concepts": ["chunking", "memory efficiency", "streaming", "Dask", "polars"],
+    "sample_answer_points": ["Use chunked reading with pandas", "Process in batches to manage memory", "Consider Dask for parallel processing", "Polars for faster CSV parsing", "Stream results to avoid loading all in memory"]
+  },
+  {
+    "id": "iq-073",
+    "role": "AI/ML Engineer",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "Explain the concept of model interpretability. How would you explain a black-box model's predictions to a regulator?",
+    "expected_concepts": ["SHAP", "LIME", "feature importance", "partial dependence", "model cards"],
+    "sample_answer_points": ["Use SHAP values for global and local explanations", "LIME for individual prediction explanations", "Feature importance for overall model behavior", "Create model cards documenting capabilities and limitations", "Provide confidence intervals and uncertainty estimates"]
+  },
+  {
+    "id": "iq-074",
+    "role": "NLP Engineer",
+    "skill": "NLP",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you build a chatbot that maintains context across multiple turns of conversation?",
+    "expected_concepts": ["context window", "conversation history", "state management", "memory", "context compression"],
+    "sample_answer_points": ["Maintain conversation history in session", "Implement context window management", "Use summary for long conversations", "Store relevant facts in memory", "Handle context switching between topics"]
+  },
+  {
+    "id": "iq-075",
+    "role": "NLP Engineer",
+    "skill": "NLP",
+    "category": "scenario",
+    "difficulty": "Advanced",
+    "question": "Your language model generates plausible-sounding but factually incorrect information. How would you address this hallucination problem?",
+    "expected_concepts": ["hallucination", "grounding", "retrieval", "confidence calibration", "fact checking"],
+    "sample_answer_points": ["Implement retrieval-augmented generation (RAG)", "Ground responses in provided context", "Add confidence scoring", "Implement fact-checking pipeline", "Fine-tune with factual data", "Add uncertainty expression to model outputs"]
+  },
+  {
+    "id": "iq-076",
+    "role": "Computer Vision Engineer",
+    "skill": "Computer Vision",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you handle class imbalance in an image classification dataset?",
+    "expected_concepts": ["oversampling", "undersampling", "data augmentation", "class weights", "focal loss"],
+    "sample_answer_points": ["Use data augmentation on minority class", "Apply class weights in loss function", "Use focal loss for hard examples", "Consider oversampling with SMOTE for images", "Evaluate with appropriate metrics"]
+  },
+  {
+    "id": "iq-077",
+    "role": "Computer Vision Engineer",
+    "skill": "PyTorch",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement transfer learning using a pre-trained model in PyTorch?",
+    "expected_concepts": ["pretrained models", "fine-tuning", "feature extraction", "learning rate", "layer freezing"],
+    "sample_answer_points": ["Load pre-trained model with pretrained=True", "Replace final classification layer", "Freeze early layers for feature extraction", "Use lower learning rate for fine-tuning", "Gradually unfreeze layers if needed"]
+  },
+  {
+    "id": "iq-078",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement a Git branching strategy for a team of 10 developers? Compare GitFlow vs Trunk-Based.",
+    "expected_concepts": ["GitFlow", "trunk-based", "feature branches", "release branches", "code review"],
+    "sample_answer_points": ["GitFlow: develop, feature, release, hotfix branches", "Trunk-based: short-lived feature branches, frequent merges", "GitFlow for scheduled releases", "Trunk-based for continuous deployment", "Both require code review and CI/CD"]
+  },
+  {
+    "id": "iq-079",
+    "role": "AI Agent Engineer",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement memory and context management for a long-running AI agent?",
+    "expected_concepts": ["short-term memory", "long-term memory", "context window", "retrieval", "summarization"],
+    "sample_answer_points": ["Short-term memory for current conversation", "Long-term memory for persistent facts", "Summarize old messages to save context space", "Use vector store for relevant memory retrieval", "Implement memory consolidation strategies"]
+  },
+  {
+    "id": "iq-080",
+    "role": "AI Agent Engineer",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you evaluate and benchmark an AI agent's performance on complex, multi-step tasks?",
+    "expected_concepts": ["task completion", "efficiency", "error recovery", "tool usage", "evaluation frameworks"],
+    "sample_answer_points": ["Define task completion metrics", "Measure steps to completion", "Track error rates and recovery", "Evaluate tool usage efficiency", "Use benchmark suites (e.g., AgentBench)", "Compare against human performance baselines"]
+  },
+  {
+    "id": "iq-081",
+    "role": "AI/ML Engineer",
+    "skill": "Deep Learning",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "Design a real-time recommendation system that updates user preferences as they interact. What's your architecture?",
+    "expected_concepts": ["online learning", "feature store", "real-time updates", "A/B testing", "cold start"],
+    "sample_answer_points": ["Streaming pipeline for user interactions", "Feature store for real-time features", "Online model updates or retraining", "A/B testing for model comparison", "Handle cold start for new users/items"]
+  },
+  {
+    "id": "iq-082",
+    "role": "Data Scientist",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you optimize a pandas operation that's taking too long on a large dataset?",
+    "expected_concepts": ["vectorization", "chunking", "parallel processing", "polars", "memory optimization"],
+    "sample_answer_points": ["Vectorize operations instead of iterrows", "Use appropriate data types to reduce memory", "Process in chunks for large files", "Consider Polars for better performance", "Use Dask for parallel processing"]
+  },
+  {
+    "id": "iq-083",
+    "role": "Backend Developer",
+    "skill": "FastAPI",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you implement request/response validation and serialization in a FastAPI application for complex nested models?",
+    "expected_concepts": ["Pydantic", "nested models", "validators", "serialization", "OpenAPI"],
+    "sample_answer_points": ["Define Pydantic models for request/response", "Use nested models for complex structures", "Add custom validators with @validator", "Handle optional fields properly", "Leverage automatic OpenAPI schema generation"]
+  },
+  {
+    "id": "iq-084",
+    "role": "Full Stack Developer",
+    "skill": "Docker",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you set up a development environment with Docker that supports hot-reloading for both frontend and backend?",
+    "expected_concepts": ["docker-compose", "volume mounts", "hot reload", "development mode", "file watching"],
+    "sample_answer_points": ["Use docker-compose for multi-service setup", "Mount source code as volumes", "Run services in development mode", "Configure file watching for hot reload", "Separate development and production configs"]
+  },
+  {
+    "id": "iq-085",
+    "role": "AI/ML Engineer",
+    "skill": "Docker",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you monitor a deployed ML model for data drift and model degradation?",
+    "expected_concepts": ["data drift", "model monitoring", "alerting", "baseline", "metrics tracking"],
+    "sample_answer_points": ["Track input data distribution changes", "Monitor prediction distribution", "Compare against baseline metrics", "Set up alerts for significant drift", "Implement automated retraining triggers"]
+  },
+  {
+    "id": "iq-086",
+    "role": "DevOps Engineer",
+    "skill": "Cloud",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you implement Infrastructure as Code for a cloud ML deployment using Terraform or CloudFormation?",
+    "expected_concepts": ["IaC", "Terraform", "CloudFormation", "state management", "version control"],
+    "sample_answer_points": ["Define infrastructure in code files", "Use modules for reusable components", "Manage state files securely", "Version control infrastructure changes", "Implement plan/apply workflow"]
+  },
+  {
+    "id": "iq-087",
+    "role": "AI Agent Engineer",
+    "skill": "Cloud",
+    "category": "project",
+    "difficulty": "Advanced",
+    "question": "Design a scalable deployment for an AI agent system that can handle 1000 concurrent users. What cloud services would you use?",
+    "expected_concepts": ["load balancing", "auto-scaling", "caching", "queue", "serverless"],
+    "sample_answer_points": ["Use load balancer for traffic distribution", "Auto-scaling groups for capacity", "Redis for session caching", "Message queue for async processing", "Consider serverless for variable workloads"]
+  },
+  {
+    "id": "iq-088",
+    "role": "AI/ML Engineer",
+    "skill": "Python",
+    "category": "behavioral",
+    "difficulty": "Intermediate",
+    "question": "Tell me about a project where you had to balance model accuracy with inference latency. How did you approach the trade-off?",
+    "expected_concepts": ["trade-offs", "optimization", "performance", "profiling", "practical constraints"],
+    "sample_answer_points": ["Identified latency requirements upfront", "Profiled model to find bottlenecks", "Tried model distillation and quantization", "Measured accuracy impact of optimizations", "Found acceptable balance for production"]
+  },
+  {
+    "id": "iq-089",
+    "role": "Data Scientist",
+    "skill": "Machine Learning",
+    "category": "behavioral",
+    "difficulty": "Advanced",
+    "question": "Describe a situation where your model's recommendations were not adopted by the business. How did you handle it?",
+    "expected_concepts": ["stakeholder management", "communication", "trust", "iterative approach", "business alignment"],
+    "sample_answer_points": ["Listened to business concerns", "Understood the gap between model and needs", "Iterated based on feedback", "Built trust through transparency", "Found compromise or alternative approach"]
+  },
+  {
+    "id": "iq-090",
+    "role": "NLP Engineer",
+    "skill": "NLP",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you build a multilingual text classification system? What challenges would you face?",
+    "expected_concepts": ["multilingual models", "XLM-R", "translation", "language detection", "cross-lingual transfer"],
+    "sample_answer_points": ["Use multilingual pre-trained models (XLM-R, mBERT)", "Consider translation-based approach", "Handle language detection", "Deal with class imbalance across languages", "Evaluate cross-lingual transfer performance"]
+  },
+  {
+    "id": "iq-091",
+    "role": "Computer Vision Engineer",
+    "skill": "Deep Learning",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "Explain the architecture of a Vision Transformer (ViT). How does it compare to CNNs for image tasks?",
+    "expected_concepts": ["patch embedding", "self-attention", "positional encoding", "transformer encoder", "comparison with CNN"],
+    "sample_answer_points": ["Splits image into patches, flattens them", "Applies transformer encoder to patch embeddings", "Uses positional encodings for spatial information", "Can capture global dependencies better than CNNs", "Requires more data than CNNs for good performance"]
+  },
+  {
+    "id": "iq-092",
+    "role": "AI Agent Engineer",
+    "skill": "NLP",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement grounding in an AI agent to reduce hallucinations?",
+    "expected_concepts": ["grounding", "source attribution", "citation", "knowledge base", "fact verification"],
+    "sample_answer_points": ["Retrieve relevant documents before generating", "Cite sources in responses", "Verify facts against knowledge base", "Express uncertainty when unsure", "Implement post-generation fact checking"]
+  },
+  {
+    "id": "iq-093",
+    "role": "Backend Developer",
+    "skill": "SQL",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you design a database schema for a multi-tenant SaaS application? What are the trade-offs?",
+    "expected_concepts": ["multi-tenancy", "schema design", "isolation", "performance", "row-level security"],
+    "sample_answer_points": ["Shared database with tenant ID column", "Separate schemas per tenant", "Separate databases per tenant", "Trade-offs: isolation vs cost vs complexity", "Row-level security for shared database approach"]
+  },
+  {
+    "id": "iq-094",
+    "role": "AI/ML Engineer",
+    "skill": "Machine Learning",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement online learning for a recommendation system that needs to adapt to user behavior in real-time?",
+    "expected_concepts": ["online learning", "incremental updates", "streaming", "warm starting", "model updates"],
+    "sample_answer_points": ["Use streaming data pipeline", "Update model incrementally", "Handle concept drift", "Warm start from previous model", "Evaluate update quality before deployment"]
+  },
+  {
+    "id": "iq-095",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "category": "scenario",
+    "difficulty": "Intermediate",
+    "question": "You need to create a dashboard that shows daily active users, retention rates, and funnel conversion. How would you structure the SQL queries?",
+    "expected_concepts": ["DAU", "retention", "funnel", "cohort analysis", "date manipulation"],
+    "sample_answer_points": ["DAU: count distinct users per day", "Retention: cohort-based analysis", "Funnel: sequential step completion", "Use CTEs for complex logic", "Optimize with appropriate indexes"]
+  },
+  {
+    "id": "iq-096",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "category": "technical",
+    "difficulty": "Advanced",
+    "question": "How would you implement pre-commit hooks to enforce code quality and security standards across a team?",
+    "expected_concepts": ["pre-commit hooks", "linting", "security scanning", "code formatting", "CI integration"],
+    "sample_answer_points": ["Use pre-commit framework", "Add linting and formatting hooks", "Include security scanning (secrets, dependencies)", "Make hooks mandatory for all team members", "Integrate with CI as backup"]
+  },
+  {
+    "id": "iq-097",
+    "role": "AI Agent Engineer",
+    "skill": "Python",
+    "category": "scenario",
+    "difficulty": "Intermediate",
+    "question": "Your AI agent is stuck in an infinite loop trying to solve a task. How would you prevent and handle this?",
+    "expected_concepts": ["timeout", "iteration limit", "circuit breaker", "fallback", "monitoring"],
+    "sample_answer_points": ["Set maximum iteration limits", "Implement timeout for each step", "Add circuit breaker pattern", "Log agent actions for debugging", "Implement graceful fallback strategy"]
+  },
+  {
+    "id": "iq-098",
+    "role": "AI/ML Engineer",
+    "skill": "Docker",
+    "category": "project",
+    "difficulty": "Advanced",
+    "question": "How would you implement blue-green deployment for an ML model using Docker and Kubernetes?",
+    "expected_concepts": ["blue-green deployment", "Kubernetes", "service routing", "rollback", "health checks"],
+    "sample_answer_points": ["Deploy new version alongside old version", "Route traffic to new version gradually", "Monitor metrics during rollout", "Automate rollback on issues", "Use Kubernetes services for traffic management"]
+  },
+  {
+    "id": "iq-099",
+    "role": "Data Scientist",
+    "skill": "Python",
+    "category": "technical",
+    "difficulty": "Intermediate",
+    "question": "How would you implement A/B testing analysis in Python? What statistical tests would you use?",
+    "expected_concepts": ["A/B testing", "t-test", "chi-squared", "confidence intervals", "sample size"],
+    "sample_answer_points": ["Calculate required sample size before test", "Use t-test for continuous metrics", "Use chi-squared for categorical metrics", "Compute confidence intervals", "Check for statistical and practical significance"]
+  },
+  {
+    "id": "iq-100",
+    "role": "Full Stack Developer",
+    "skill": "React",
+    "category": "project",
+    "difficulty": "Intermediate",
+    "question": "How would you implement real-time notifications in a React application? Compare WebSockets vs Server-Sent Events.",
+    "expected_concepts": ["WebSocket", "SSE", "real-time", "connection management", "fallback"],
+    "sample_answer_points": ["WebSocket: bidirectional, more complex", "SSE: server-to-client, simpler", "Use WebSocket for chat/collaboration", "Use SSE for notifications/updates", "Implement reconnection logic", "Consider polling as fallback"]
+  }
+]

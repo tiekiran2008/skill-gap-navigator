@@ -1,0 +1,309 @@
+{
+  "categories": {
+    "Programming": {
+      "description": "Programming languages and scripting",
+      "skills": {
+        "Python": {"aliases": ["py", "python3", "python 3"], "importance": 0.95, "prerequisites": []},
+        "Java": {"aliases": ["java8", "java 11", "java 17"], "importance": 0.85, "prerequisites": []},
+        "JavaScript": {"aliases": ["js", "es6", "es2015", "ecmascript"], "importance": 0.95, "prerequisites": []},
+        "TypeScript": {"aliases": ["ts"], "importance": 0.9, "prerequisites": ["JavaScript"]},
+        "C++": {"aliases": ["cpp", "cplusplus", "c plus plus"], "importance": 0.8, "prerequisites": ["C"]},
+        "C": {"aliases": ["c lang", "ansi c"], "importance": 0.7, "prerequisites": []},
+        "C#": {"aliases": ["csharp", "c sharp", ".net"], "importance": 0.8, "prerequisites": []},
+        "Go": {"aliases": ["golang"], "importance": 0.75, "prerequisites": []},
+        "Rust": {"aliases": ["rs"], "importance": 0.7, "prerequisites": []},
+        "Ruby": {"aliases": ["rb"], "importance": 0.65, "prerequisites": []},
+        "PHP": {"aliases": [], "importance": 0.65, "prerequisites": []},
+        "Swift": {"aliases": [], "importance": 0.65, "prerequisites": []},
+        "Kotlin": {"aliases": ["kt"], "importance": 0.7, "prerequisites": []},
+        "Scala": {"aliases": [], "importance": 0.6, "prerequisites": []},
+        "R": {"aliases": ["r-lang", "r programming", "r studio"], "importance": 0.7, "prerequisites": []},
+        "Perl": {"aliases": [], "importance": 0.4, "prerequisites": []},
+        "MATLAB": {"aliases": [], "importance": 0.5, "prerequisites": []},
+        "Lua": {"aliases": [], "importance": 0.35, "prerequisites": []},
+        "Dart": {"aliases": [], "importance": 0.55, "prerequisites": []},
+        "Elixir": {"aliases": [], "importance": 0.4, "prerequisites": []},
+        "Haskell": {"aliases": [], "importance": 0.35, "prerequisites": []},
+        "Julia": {"aliases": [], "importance": 0.4, "prerequisites": []},
+        "SQL": {"aliases": ["structured query language"], "importance": 0.9, "prerequisites": []},
+        "HTML": {"aliases": ["html5"], "importance": 0.85, "prerequisites": []},
+        "CSS": {"aliases": ["css3"], "importance": 0.85, "prerequisites": []},
+        "Bash": {"aliases": ["shell", "shell scripting"], "importance": 0.7, "prerequisites": []},
+        "Solidity": {"aliases": [], "importance": 0.4, "prerequisites": []}
+      }
+    },
+    "Data Structures & Algorithms": {
+      "description": "Core CS fundamentals",
+      "skills": {
+        "Arrays": {"aliases": [], "importance": 0.85, "prerequisites": []},
+        "Linked Lists": {"aliases": [], "importance": 0.75, "prerequisites": []},
+        "Stacks": {"aliases": ["stack"], "importance": 0.75, "prerequisites": []},
+        "Queues": {"aliases": ["queue"], "importance": 0.75, "prerequisites": []},
+        "Hash Tables": {"aliases": ["hash map", "hashmap", "dictionary"], "importance": 0.85, "prerequisites": []},
+        "Trees": {"aliases": ["binary tree", "bst", "binary search tree"], "importance": 0.8, "prerequisites": []},
+        "Graphs": {"aliases": ["graph algorithms"], "importance": 0.8, "prerequisites": []},
+        "Sorting Algorithms": {"aliases": ["sorting", "quicksort", "mergesort"], "importance": 0.75, "prerequisites": []},
+        "Searching Algorithms": {"aliases": ["binary search", "searching"], "importance": 0.75, "prerequisites": []},
+        "Dynamic Programming": {"aliases": ["dp"], "importance": 0.8, "prerequisites": []},
+        "Recursion": {"aliases": [], "importance": 0.75, "prerequisites": []},
+        "Big O Notation": {"aliases": ["time complexity", "space complexity"], "importance": 0.8, "prerequisites": []},
+        "Greedy Algorithms": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Backtracking": {"aliases": [], "importance": 0.7, "prerequisites": []}
+      }
+    },
+    "Databases": {
+      "description": "Relational and NoSQL databases",
+      "skills": {
+        "PostgreSQL": {"aliases": ["postgres", "psql"], "importance": 0.85, "prerequisites": ["SQL"]},
+        "MySQL": {"aliases": [], "importance": 0.8, "prerequisites": ["SQL"]},
+        "MongoDB": {"aliases": ["mongo"], "importance": 0.8, "prerequisites": []},
+        "Redis": {"aliases": [], "importance": 0.75, "prerequisites": []},
+        "SQLite": {"aliases": ["sqlite3"], "importance": 0.6, "prerequisites": ["SQL"]},
+        "Elasticsearch": {"aliases": ["elastic", "elastic search"], "importance": 0.7, "prerequisites": []},
+        "Cassandra": {"aliases": [], "importance": 0.55, "prerequisites": []},
+        "DynamoDB": {"aliases": ["dynamo"], "importance": 0.6, "prerequisites": []},
+        "Oracle": {"aliases": ["oracle db"], "importance": 0.65, "prerequisites": ["SQL"]},
+        "Microsoft SQL Server": {"aliases": ["mssql", "ms sql", "sql server"], "importance": 0.65, "prerequisites": ["SQL"]},
+        "Firebase": {"aliases": [], "importance": 0.6, "prerequisites": []},
+        "Supabase": {"aliases": [], "importance": 0.55, "prerequisites": []},
+        "Neo4j": {"aliases": [], "importance": 0.5, "prerequisites": []},
+        "CouchDB": {"aliases": ["couch db"], "importance": 0.4, "prerequisites": []},
+        "Couchbase": {"aliases": [], "importance": 0.45, "prerequisites": []},
+        "Prisma": {"aliases": [], "importance": 0.55, "prerequisites": []},
+        "TypeORM": {"aliases": [], "importance": 0.5, "prerequisites": []},
+        "Sequelize": {"aliases": [], "importance": 0.45, "prerequisites": []},
+        "Mongoose": {"aliases": [], "importance": 0.5, "prerequisites": []},
+        "SQLAlchemy": {"aliases": ["sql-alchemy"], "importance": 0.55, "prerequisites": []},
+        "Kafka": {"aliases": [], "importance": 0.65, "prerequisites": []}
+      }
+    },
+    "Machine Learning": {
+      "description": "Classical ML algorithms and techniques",
+      "skills": {
+        "Machine Learning": {"aliases": ["ml", "machine-learning", "classical ml"], "importance": 0.95, "prerequisites": ["Python", "Statistics", "Linear Algebra"]},
+        "Scikit-learn": {"aliases": ["sklearn", "scikit learn", "scikit"], "importance": 0.85, "prerequisites": ["Python", "Machine Learning"]},
+        "Supervised Learning": {"aliases": [], "importance": 0.85, "prerequisites": ["Machine Learning"]},
+        "Unsupervised Learning": {"aliases": [], "importance": 0.8, "prerequisites": ["Machine Learning"]},
+        "Reinforcement Learning": {"aliases": ["rl"], "importance": 0.75, "prerequisites": ["Machine Learning"]},
+        "Feature Engineering": {"aliases": [], "importance": 0.85, "prerequisites": ["Machine Learning"]},
+        "Model Evaluation": {"aliases": ["model validation", "cross validation"], "importance": 0.8, "prerequisites": ["Machine Learning"]},
+        "Hyperparameter Tuning": {"aliases": ["hyperparameter optimization"], "importance": 0.75, "prerequisites": ["Machine Learning"]},
+        "Ensemble Methods": {"aliases": ["ensemble learning", "random forest", "gradient boosting"], "importance": 0.8, "prerequisites": ["Machine Learning"]},
+        "Regression": {"aliases": ["linear regression", "logistic regression"], "importance": 0.8, "prerequisites": ["Machine Learning"]},
+        "Classification": {"aliases": [], "importance": 0.8, "prerequisites": ["Machine Learning"]},
+        "Clustering": {"aliases": ["k-means", "kmeans"], "importance": 0.75, "prerequisites": ["Machine Learning"]},
+        "Dimensionality Reduction": {"aliases": ["pca", "tsne"], "importance": 0.7, "prerequisites": ["Machine Learning"]},
+        "Data Preprocessing": {"aliases": ["data cleaning", "data preparation"], "importance": 0.85, "prerequisites": []},
+        "Statistics": {"aliases": ["statistical analysis", "inferential statistics"], "importance": 0.9, "prerequisites": []},
+        "Linear Algebra": {"aliases": [], "importance": 0.85, "prerequisites": []},
+        "Probability": {"aliases": ["probability theory"], "importance": 0.85, "prerequisites": []},
+        "Recommendation Systems": {"aliases": ["recommender systems"], "importance": 0.7, "prerequisites": ["Machine Learning"]},
+        "Time Series Analysis": {"aliases": ["time series", "forecasting"], "importance": 0.75, "prerequisites": ["Machine Learning"]}
+      }
+    },
+    "Deep Learning": {
+      "description": "Neural networks and deep learning",
+      "skills": {
+        "Deep Learning": {"aliases": ["dl", "deep-learning"], "importance": 0.9, "prerequisites": ["Machine Learning", "Python"]},
+        "Neural Networks": {"aliases": ["neural network", "nn", "artificial neural networks"], "importance": 0.9, "prerequisites": ["Deep Learning"]},
+        "CNN": {"aliases": ["convolutional neural network", "convolutional neural networks"], "importance": 0.85, "prerequisites": ["Neural Networks"]},
+        "RNN": {"aliases": ["recurrent neural network"], "importance": 0.8, "prerequisites": ["Neural Networks"]},
+        "LSTM": {"aliases": ["long short-term memory"], "importance": 0.8, "prerequisites": ["RNN"]},
+        "GAN": {"aliases": ["generative adversarial network"], "importance": 0.75, "prerequisites": ["Neural Networks"]},
+        "Autoencoders": {"aliases": ["autoencoder"], "importance": 0.7, "prerequisites": ["Neural Networks"]},
+        "Transfer Learning": {"aliases": [], "importance": 0.85, "prerequisites": ["Deep Learning"]},
+        "PyTorch": {"aliases": ["torch"], "importance": 0.9, "prerequisites": ["Python", "Deep Learning"]},
+        "TensorFlow": {"aliases": ["tf"], "importance": 0.9, "prerequisites": ["Python", "Deep Learning"]},
+        "Keras": {"aliases": [], "importance": 0.75, "prerequisites": ["Python", "Deep Learning"]},
+        "Model Optimization": {"aliases": ["model compression", "quantization", "pruning"], "importance": 0.75, "prerequisites": ["Deep Learning"]},
+        "Data Augmentation": {"aliases": [], "importance": 0.75, "prerequisites": ["Deep Learning"]},
+        "Batch Normalization": {"aliases": ["batchnorm"], "importance": 0.7, "prerequisites": ["Neural Networks"]},
+        "Dropout": {"aliases": [], "importance": 0.65, "prerequisites": ["Neural Networks"]}
+      }
+    },
+    "NLP": {
+      "description": "Natural language processing",
+      "skills": {
+        "NLP": {"aliases": ["natural language processing"], "importance": 0.85, "prerequisites": ["Deep Learning", "Python"]},
+        "Transformers": {"aliases": ["transformer", "attention mechanism"], "importance": 0.9, "prerequisites": ["Deep Learning"]},
+        "Hugging Face": {"aliases": ["huggingface", "hf"], "importance": 0.8, "prerequisites": ["Python", "Transformers"]},
+        "BERT": {"aliases": [], "importance": 0.8, "prerequisites": ["Transformers"]},
+        "GPT": {"aliases": ["generative pre-trained transformer"], "importance": 0.8, "prerequisites": ["Transformers"]},
+        "Tokenization": {"aliases": ["text tokenization"], "importance": 0.75, "prerequisites": ["NLP"]},
+        "Text Classification": {"aliases": [], "importance": 0.75, "prerequisites": ["NLP"]},
+        "Named Entity Recognition": {"aliases": ["ner"], "importance": 0.75, "prerequisites": ["NLP"]},
+        "Sentiment Analysis": {"aliases": [], "importance": 0.7, "prerequisites": ["NLP"]},
+        "Text Generation": {"aliases": [], "importance": 0.75, "prerequisites": ["NLP", "Transformers"]},
+        "Machine Translation": {"aliases": [], "importance": 0.7, "prerequisites": ["NLP"]},
+        "Word Embeddings": {"aliases": ["word2vec", "glove", "fasttext"], "importance": 0.75, "prerequisites": ["NLP"]},
+        "Text Summarization": {"aliases": [], "importance": 0.7, "prerequisites": ["NLP"]},
+        "Question Answering": {"aliases": ["qa"], "importance": 0.7, "prerequisites": ["NLP"]}
+      }
+    },
+    "Computer Vision": {
+      "description": "Image and video processing with AI",
+      "skills": {
+        "Computer Vision": {"aliases": ["cv"], "importance": 0.85, "prerequisites": ["Deep Learning", "Python"]},
+        "OpenCV": {"aliases": ["opencv", "opencv-python"], "importance": 0.85, "prerequisites": ["Python"]},
+        "Image Processing": {"aliases": ["image manipulation"], "importance": 0.8, "prerequisites": ["Computer Vision"]},
+        "Object Detection": {"aliases": ["yolo", "faster rcnn"], "importance": 0.85, "prerequisites": ["CNN", "Computer Vision"]},
+        "Image Segmentation": {"aliases": ["semantic segmentation", "instance segmentation"], "importance": 0.8, "prerequisites": ["CNN", "Computer Vision"]},
+        "Image Classification": {"aliases": [], "importance": 0.8, "prerequisites": ["CNN", "Computer Vision"]},
+        "OCR": {"aliases": ["optical character recognition"], "importance": 0.7, "prerequisites": ["Computer Vision"]},
+        "Face Detection": {"aliases": ["facial recognition"], "importance": 0.7, "prerequisites": ["Computer Vision"]},
+        "Video Analysis": {"aliases": [], "importance": 0.7, "prerequisites": ["Computer Vision"]},
+        "3D Vision": {"aliases": ["3d reconstruction", "point clouds"], "importance": 0.65, "prerequisites": ["Computer Vision"]},
+        "Pose Estimation": {"aliases": [], "importance": 0.7, "prerequisites": ["Computer Vision"]}
+      }
+    },
+    "Generative AI": {
+      "description": "Generative models and LLMs",
+      "skills": {
+        "LLM": {"aliases": ["large language model", "large language models"], "importance": 0.9, "prerequisites": ["Deep Learning", "NLP"]},
+        "OpenAI": {"aliases": ["openai api", "chatgpt"], "importance": 0.85, "prerequisites": ["Python"]},
+        "RAG": {"aliases": ["retrieval augmented generation"], "importance": 0.85, "prerequisites": ["LLM"]},
+        "Fine-tuning": {"aliases": ["fine tuning", "finetuning", "fine-tune"], "importance": 0.85, "prerequisites": ["LLM", "Deep Learning"]},
+        "Prompt Engineering": {"aliases": ["prompting", "prompt design"], "importance": 0.85, "prerequisites": ["LLM"]},
+        "LangChain": {"aliases": ["lang chain"], "importance": 0.8, "prerequisites": ["Python", "LLM"]},
+        "LlamaIndex": {"aliases": ["llama index"], "importance": 0.75, "prerequisites": ["Python", "LLM"]},
+        "AI Agents": {"aliases": ["agentic ai", "autonomous agents"], "importance": 0.85, "prerequisites": ["LLM", "LangChain"]},
+        "Vector Databases": {"aliases": ["vector db", "pinecone", "weaviate", "chromadb", "chroma"], "importance": 0.8, "prerequisites": ["LLM"]},
+        "Stable Diffusion": {"aliases": [], "importance": 0.7, "prerequisites": ["Deep Learning"]},
+        "DALL-E": {"aliases": [], "importance": 0.65, "prerequisites": ["Deep Learning"]},
+        "Groq": {"aliases": [], "importance": 0.6, "prerequisites": ["LLM"]},
+        "Model Distillation": {"aliases": ["knowledge distillation"], "importance": 0.7, "prerequisites": ["Deep Learning"]}
+      }
+    },
+    "AI Agents": {
+      "description": "Autonomous AI systems and orchestration",
+      "skills": {
+        "AI Agents": {"aliases": ["agentic ai", "autonomous agents", "intelligent agents"], "importance": 0.9, "prerequisites": ["LLM", "Python"]},
+        "Multi-Agent Systems": {"aliases": ["multi-agent", "agent orchestration"], "importance": 0.8, "prerequisites": ["AI Agents"]},
+        "Tool Use": {"aliases": ["function calling", "tool calling"], "importance": 0.8, "prerequisites": ["AI Agents"]},
+        "Agent Memory": {"aliases": ["memory systems", "long-term memory"], "importance": 0.75, "prerequisites": ["AI Agents"]},
+        "Planning": {"aliases": ["agent planning", "task decomposition"], "importance": 0.8, "prerequisites": ["AI Agents"]},
+        "ReAct": {"aliases": ["reasoning and acting"], "importance": 0.75, "prerequisites": ["AI Agents"]},
+        "AutoGPT": {"aliases": ["auto-gpt"], "importance": 0.7, "prerequisites": ["AI Agents"]},
+        "CrewAI": {"aliases": ["crew ai"], "importance": 0.7, "prerequisites": ["AI Agents"]},
+        "LangGraph": {"aliases": ["lang graph"], "importance": 0.75, "prerequisites": ["LangChain", "AI Agents"]}
+      }
+    },
+    "Backend": {
+      "description": "Server-side frameworks and architecture",
+      "skills": {
+        "FastAPI": {"aliases": ["fast api", "fast-api"], "importance": 0.85, "prerequisites": ["Python"]},
+        "Django": {"aliases": [], "importance": 0.85, "prerequisites": ["Python"]},
+        "Flask": {"aliases": [], "importance": 0.75, "prerequisites": ["Python"]},
+        "Node.js": {"aliases": ["nodejs", "node"], "importance": 0.85, "prerequisites": ["JavaScript"]},
+        "Express.js": {"aliases": ["expressjs", "express"], "importance": 0.8, "prerequisites": ["Node.js"]},
+        "Spring Boot": {"aliases": ["springboot", "spring-boot"], "importance": 0.8, "prerequisites": ["Java"]},
+        "Spring": {"aliases": ["spring framework"], "importance": 0.75, "prerequisites": ["Java"]},
+        "Laravel": {"aliases": [], "importance": 0.7, "prerequisites": ["PHP"]},
+        "Ruby on Rails": {"aliases": ["rails"], "importance": 0.7, "prerequisites": ["Ruby"]},
+        "REST API": {"aliases": ["rest", "restful", "rest apis"], "importance": 0.9, "prerequisites": []},
+        "GraphQL": {"aliases": ["graph-ql"], "importance": 0.8, "prerequisites": []},
+        "gRPC": {"aliases": ["g-rpc"], "importance": 0.7, "prerequisites": []},
+        "Microservices": {"aliases": ["microservice"], "importance": 0.85, "prerequisites": []},
+        "System Design": {"aliases": ["system architecture", "software architecture"], "importance": 0.9, "prerequisites": []},
+        "Security": {"aliases": ["application security", "web security"], "importance": 0.85, "prerequisites": []},
+        "Authentication": {"aliases": ["auth", "oauth", "jwt", "oauth2"], "importance": 0.85, "prerequisites": []},
+        "Caching": {"aliases": ["cache", "caching strategies"], "importance": 0.75, "prerequisites": []},
+        "Message Queues": {"aliases": ["mq", "rabbitmq", "celery"], "importance": 0.7, "prerequisites": []}
+      }
+    },
+    "Frontend": {
+      "description": "Client-side frameworks and UI",
+      "skills": {
+        "React": {"aliases": ["reactjs", "react.js", "react js"], "importance": 0.95, "prerequisites": ["JavaScript"]},
+        "Next.js": {"aliases": ["nextjs", "next"], "importance": 0.9, "prerequisites": ["React"]},
+        "Vue.js": {"aliases": ["vuejs", "vue"], "importance": 0.8, "prerequisites": ["JavaScript"]},
+        "Angular": {"aliases": ["angularjs", "angular.js"], "importance": 0.8, "prerequisites": ["TypeScript"]},
+        "Svelte": {"aliases": ["sveltejs", "svelte.js"], "importance": 0.7, "prerequisites": ["JavaScript"]},
+        "Tailwind CSS": {"aliases": ["tailwind", "tailwindcss"], "importance": 0.85, "prerequisites": ["CSS"]},
+        "Bootstrap": {"aliases": [], "importance": 0.7, "prerequisites": ["CSS"]},
+        "SASS": {"aliases": ["scss", "sass"], "importance": 0.65, "prerequisites": ["CSS"]},
+        "jQuery": {"aliases": [], "importance": 0.5, "prerequisites": ["JavaScript"]},
+        "Responsive Design": {"aliases": ["responsive web design"], "importance": 0.85, "prerequisites": ["HTML", "CSS"]},
+        "Web Accessibility": {"aliases": ["a11y", "accessible design"], "importance": 0.7, "prerequisites": ["HTML", "CSS"]},
+        "State Management": {"aliases": ["redux", "zustand", "pinia"], "importance": 0.8, "prerequisites": ["React"]}
+      }
+    },
+    "Cloud": {
+      "description": "Cloud platforms and services",
+      "skills": {
+        "AWS": {"aliases": ["amazon web services", "amazon aws"], "importance": 0.9, "prerequisites": []},
+        "Azure": {"aliases": ["microsoft azure"], "importance": 0.85, "prerequisites": []},
+        "GCP": {"aliases": ["google cloud", "google cloud platform"], "importance": 0.85, "prerequisites": []},
+        "Serverless": {"aliases": ["serverless computing", "faas"], "importance": 0.8, "prerequisites": ["Cloud Computing"]},
+        "AWS Lambda": {"aliases": ["lambda"], "importance": 0.75, "prerequisites": ["AWS"]},
+        "Cloud Computing": {"aliases": ["cloud"], "importance": 0.85, "prerequisites": []},
+        "Cloud Architecture": {"aliases": [], "importance": 0.8, "prerequisites": ["Cloud Computing"]},
+        "Cloud Security": {"aliases": [], "importance": 0.8, "prerequisites": ["Cloud Computing", "Security"]},
+        "Cost Optimization": {"aliases": ["cloud cost optimization"], "importance": 0.7, "prerequisites": ["Cloud Computing"]}
+      }
+    },
+    "DevOps": {
+      "description": "CI/CD, containers, and infrastructure",
+      "skills": {
+        "Docker": {"aliases": ["dockerfile", "containerization"], "importance": 0.9, "prerequisites": []},
+        "Kubernetes": {"aliases": ["k8s"], "importance": 0.85, "prerequisites": ["Docker"]},
+        "CI/CD": {"aliases": ["cicd", "ci cd", "continuous integration", "continuous deployment"], "importance": 0.9, "prerequisites": []},
+        "Terraform": {"aliases": ["infra as code", "iac"], "importance": 0.8, "prerequisites": []},
+        "Ansible": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Jenkins": {"aliases": [], "importance": 0.75, "prerequisites": ["CI/CD"]},
+        "GitHub Actions": {"aliases": ["gh actions"], "importance": 0.8, "prerequisites": ["CI/CD"]},
+        "GitLab CI": {"aliases": ["gitlab ci/cd"], "importance": 0.75, "prerequisites": ["CI/CD"]},
+        "Nginx": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Linux": {"aliases": [], "importance": 0.85, "prerequisites": []},
+        "DevOps": {"aliases": [], "importance": 0.85, "prerequisites": []},
+        "Monitoring": {"aliases": ["observability", "prometheus", "grafana"], "importance": 0.8, "prerequisites": []},
+        "Logging": {"aliases": ["elk stack", "fluentd"], "importance": 0.75, "prerequisites": []}
+      }
+    },
+    "Data Engineering": {
+      "description": "Data pipelines and ETL",
+      "skills": {
+        "Apache Spark": {"aliases": ["spark"], "importance": 0.85, "prerequisites": ["Python"]},
+        "Apache Airflow": {"aliases": ["airflow"], "importance": 0.85, "prerequisites": ["Python"]},
+        "ETL": {"aliases": ["extract transform load"], "importance": 0.85, "prerequisites": []},
+        "Data Pipeline": {"aliases": ["data pipelines", "dataflow"], "importance": 0.85, "prerequisites": []},
+        "Hadoop": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Kafka": {"aliases": ["apache kafka"], "importance": 0.8, "prerequisites": []},
+        "dbt": {"aliases": ["data build tool"], "importance": 0.8, "prerequisites": ["SQL"]},
+        "Data Warehouse": {"aliases": ["snowflake", "bigquery", "redshift"], "importance": 0.8, "prerequisites": []},
+        "Data Lake": {"aliases": ["lakehouse"], "importance": 0.75, "prerequisites": []},
+        "Data Engineering": {"aliases": [], "importance": 0.85, "prerequisites": []},
+        "Delta Lake": {"aliases": ["deltalake"], "importance": 0.7, "prerequisites": []}
+      }
+    },
+    "Tools": {
+      "description": "Developer tools and utilities",
+      "skills": {
+        "Git": {"aliases": [], "importance": 0.95, "prerequisites": []},
+        "GitHub": {"aliases": [], "importance": 0.9, "prerequisites": ["Git"]},
+        "GitLab": {"aliases": [], "importance": 0.8, "prerequisites": ["Git"]},
+        "Bitbucket": {"aliases": [], "importance": 0.7, "prerequisites": ["Git"]},
+        "VS Code": {"aliases": ["vscode"], "importance": 0.85, "prerequisites": []},
+        "IntelliJ IDEA": {"aliases": ["intellij"], "importance": 0.75, "prerequisites": []},
+        "PyCharm": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Postman": {"aliases": [], "importance": 0.8, "prerequisites": []},
+        "Swagger": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Jira": {"aliases": [], "importance": 0.8, "prerequisites": []},
+        "Confluence": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Notion": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Figma": {"aliases": [], "importance": 0.7, "prerequisites": []},
+        "Jupyter Notebook": {"aliases": ["jupyter", "jupyterlab"], "importance": 0.85, "prerequisites": []},
+        "Pandas": {"aliases": [], "importance": 0.9, "prerequisites": ["Python"]},
+        "NumPy": {"aliases": [], "importance": 0.9, "prerequisites": ["Python"]},
+        "Matplotlib": {"aliases": [], "importance": 0.8, "prerequisites": ["Python"]},
+        "Seaborn": {"aliases": [], "importance": 0.75, "prerequisites": ["Python"]},
+        "Plotly": {"aliases": [], "importance": 0.7, "prerequisites": ["Python"]},
+        "SciPy": {"aliases": [], "importance": 0.7, "prerequisites": ["Python"]},
+        "Tableau": {"aliases": [], "importance": 0.75, "prerequisites": []},
+        "Power BI": {"aliases": ["powerbi"], "importance": 0.75, "prerequisites": []},
+        "Excel": {"aliases": ["microsoft excel", "ms excel"], "importance": 0.7, "prerequisites": []},
+        "LaTeX": {"aliases": ["latex"], "importance": 0.5, "prerequisites": []}
+      }
+    }
+  }
+}

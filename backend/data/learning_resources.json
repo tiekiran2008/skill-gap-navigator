@@ -1,0 +1,768 @@
+{
+  "skills": {
+    "Python": {
+      "difficulty": "Beginner",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Variables & Data Types",
+        "Control Flow",
+        "Functions",
+        "OOP",
+        "File I/O",
+        "Error Handling",
+        "Modules & Packages"
+      ],
+      "project": "Build a CLI task manager with file persistence"
+    },
+    "Java": {
+      "difficulty": "Beginner",
+      "duration": "3-4 weeks",
+      "topics": [
+        "Syntax & Types",
+        "OOP Concepts",
+        "Collections Framework",
+        "Exception Handling",
+        "Multithreading",
+        "Streams API"
+      ],
+      "project": "Build a library management system"
+    },
+    "JavaScript": {
+      "difficulty": "Beginner",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Variables & Scope",
+        "Functions & Closures",
+        "DOM Manipulation",
+        "Async/Await",
+        "Promises",
+        "ES6+ Features"
+      ],
+      "project": "Build an interactive weather dashboard"
+    },
+    "TypeScript": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Type Annotations",
+        "Interfaces & Generics",
+        "Union & Intersection Types",
+        "Utility Types",
+        "Type Guards"
+      ],
+      "project": "Convert a JavaScript project to TypeScript"
+    },
+    "SQL": {
+      "difficulty": "Beginner",
+      "duration": "2 weeks",
+      "topics": [
+        "SELECT & Filtering",
+        "JOINs",
+        "Aggregation",
+        "Subqueries",
+        "Indexes",
+        "Query Optimization"
+      ],
+      "project": "Design and query an e-commerce database"
+    },
+    "HTML": {
+      "difficulty": "Beginner",
+      "duration": "1 week",
+      "topics": [
+        "Semantic Elements",
+        "Forms & Inputs",
+        "Tables",
+        "Accessibility",
+        "SEO Basics"
+      ],
+      "project": "Build a personal portfolio page"
+    },
+    "CSS": {
+      "difficulty": "Beginner",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Box Model",
+        "Flexbox",
+        "Grid",
+        "Responsive Design",
+        "Animations",
+        "CSS Variables"
+      ],
+      "project": "Create a responsive landing page"
+    },
+    "Machine Learning": {
+      "difficulty": "Intermediate",
+      "duration": "3-4 weeks",
+      "topics": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Model Evaluation",
+        "Feature Engineering",
+        "Cross-Validation",
+        "Bias-Variance Tradeoff"
+      ],
+      "project": "Build a house price prediction model"
+    },
+    "Deep Learning": {
+      "difficulty": "Advanced",
+      "duration": "3-4 weeks",
+      "topics": [
+        "Neural Network Basics",
+        "Backpropagation",
+        "Activation Functions",
+        "Regularization",
+        "Optimizers",
+        "Batch Normalization"
+      ],
+      "project": "Build a digit classifier with neural networks"
+    },
+    "PyTorch": {
+      "difficulty": "Intermediate",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Tensors",
+        "Autograd",
+        "nn.Module",
+        "DataLoaders",
+        "Training Loop",
+        "GPU Acceleration"
+      ],
+      "project": "Image classification CNN on CIFAR-10"
+    },
+    "TensorFlow": {
+      "difficulty": "Intermediate",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Tensors & Operations",
+        "tf.keras API",
+        "Model Training",
+        "SavedModel Format",
+        "TensorBoard",
+        "TF Lite"
+      ],
+      "project": "Sentiment analysis model with TensorFlow"
+    },
+    "Scikit-learn": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Classification",
+        "Regression",
+        "Clustering",
+        "Pipeline",
+        "GridSearchCV",
+        "Model Selection"
+      ],
+      "project": "Customer churn prediction pipeline"
+    },
+    "NLP": {
+      "difficulty": "Advanced",
+      "duration": "3-4 weeks",
+      "topics": [
+        "Tokenization",
+        "Word Embeddings",
+        "Sequence Models",
+        "Transformers",
+        "Text Classification",
+        "NER"
+      ],
+      "project": "Build a text sentiment classifier"
+    },
+    "Computer Vision": {
+      "difficulty": "Advanced",
+      "duration": "3-4 weeks",
+      "topics": [
+        "Image Processing",
+        "CNNs",
+        "Object Detection",
+        "Image Segmentation",
+        "Data Augmentation",
+        "Transfer Learning"
+      ],
+      "project": "Real-time object detection system"
+    },
+    "Neural Networks": {
+      "difficulty": "Intermediate",
+      "duration": "2 weeks",
+      "topics": [
+        "Perceptrons",
+        "Multi-Layer Networks",
+        "Activation Functions",
+        "Loss Functions",
+        "Gradient Descent"
+      ],
+      "project": "XOR problem solver with backpropagation"
+    },
+    "Statistics": {
+      "difficulty": "Intermediate",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Descriptive Statistics",
+        "Probability Distributions",
+        "Hypothesis Testing",
+        "Confidence Intervals",
+        "Regression Analysis"
+      ],
+      "project": "A/B testing analysis report"
+    },
+    "Linear Algebra": {
+      "difficulty": "Intermediate",
+      "duration": "2 weeks",
+      "topics": [
+        "Vectors",
+        "Matrices",
+        "Eigenvalues",
+        "SVD",
+        "Matrix Decomposition"
+      ],
+      "project": "Implement PCA from scratch"
+    },
+    "React": {
+      "difficulty": "Intermediate",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Components & JSX",
+        "Props & State",
+        "Hooks",
+        "Context API",
+        "React Router",
+        "Performance Optimization"
+      ],
+      "project": "Build a task management app"
+    },
+    "Node.js": {
+      "difficulty": "Intermediate",
+      "duration": "2 weeks",
+      "topics": [
+        "Event Loop",
+        "Modules",
+        "Express.js",
+        "Middleware",
+        "REST APIs",
+        "Authentication"
+      ],
+      "project": "Build a REST API with authentication"
+    },
+    "Docker": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Containers vs VMs",
+        "Dockerfile",
+        "Volumes",
+        "Networks",
+        "Docker Compose",
+        "Multi-stage Builds"
+      ],
+      "project": "Containerize a full-stack application"
+    },
+    "Kubernetes": {
+      "difficulty": "Advanced",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Pods & Deployments",
+        "Services",
+        "ConfigMaps",
+        "Secrets",
+        "Ingress",
+        "Helm Charts"
+      ],
+      "project": "Deploy a microservices app on K8s"
+    },
+    "AWS": {
+      "difficulty": "Intermediate",
+      "duration": "2-3 weeks",
+      "topics": [
+        "EC2",
+        "S3",
+        "RDS",
+        "Lambda",
+        "IAM",
+        "CloudFormation"
+      ],
+      "project": "Deploy a serverless API on AWS"
+    },
+    "Git": {
+      "difficulty": "Beginner",
+      "duration": "1 week",
+      "topics": [
+        "Init & Clone",
+        "Branching",
+        "Merging",
+        "Rebasing",
+        "Pull Requests",
+        "Git Flow"
+      ],
+      "project": "Contribute to an open-source project"
+    },
+    "REST API": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "HTTP Methods",
+        "Status Codes",
+        "Authentication",
+        "Rate Limiting",
+        "Versioning",
+        "Documentation"
+      ],
+      "project": "Design and build a RESTful API"
+    },
+    "GraphQL": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Queries & Mutations",
+        "Schema Design",
+        "Resolvers",
+        "Subscriptions",
+        "Apollo Server"
+      ],
+      "project": "Build a GraphQL API for a blog"
+    },
+    "Microservices": {
+      "difficulty": "Advanced",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Service Decomposition",
+        "Communication Patterns",
+        "API Gateway",
+        "Service Discovery",
+        "Circuit Breaker"
+      ],
+      "project": "Decompose a monolith into microservices"
+    },
+    "System Design": {
+      "difficulty": "Advanced",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Load Balancing",
+        "Caching",
+        "Database Sharding",
+        "Message Queues",
+        "CAP Theorem",
+        "Design Patterns"
+      ],
+      "project": "Design a URL shortener system"
+    },
+    "Pandas": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "DataFrames",
+        "Series",
+        "Data Cleaning",
+        "GroupBy",
+        "Merge & Join",
+        "Time Series"
+      ],
+      "project": "Analyze and visualize a real-world dataset"
+    },
+    "NumPy": {
+      "difficulty": "Intermediate",
+      "duration": "1 week",
+      "topics": [
+        "Arrays",
+        "Broadcasting",
+        "Linear Algebra",
+        "Random Sampling",
+        "Array Operations"
+      ],
+      "project": "Implement matrix operations from scratch"
+    },
+    "Data Visualization": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "Chart Types",
+        "Storytelling with Data"
+      ],
+      "project": "Create an interactive data dashboard"
+    },
+    "Django": {
+      "difficulty": "Intermediate",
+      "duration": "2-3 weeks",
+      "topics": [
+        "MVT Pattern",
+        "Models & ORM",
+        "Views & Templates",
+        "Forms",
+        "Authentication",
+        "REST Framework"
+      ],
+      "project": "Build a blog platform with Django"
+    },
+    "Flask": {
+      "difficulty": "Beginner",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Routing",
+        "Templates",
+        "Forms",
+        "Database",
+        "REST APIs",
+        "Blueprints"
+      ],
+      "project": "Build a URL shortener with Flask"
+    },
+    "FastAPI": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Path Parameters",
+        "Request Bodies",
+        "Response Models",
+        "Dependency Injection",
+        "Async",
+        "OpenAPI"
+      ],
+      "project": "Build a high-performance REST API"
+    },
+    "MongoDB": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Documents & Collections",
+        "CRUD Operations",
+        "Aggregation",
+        "Indexing",
+        "Replication",
+        "Atlas"
+      ],
+      "project": "Build a real-time chat application"
+    },
+    "PostgreSQL": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Advanced Queries",
+        "Window Functions",
+        "CTEs",
+        "JSONB",
+        "Full-Text Search",
+        "Performance Tuning"
+      ],
+      "project": "Optimize a complex reporting query"
+    },
+    "Redis": {
+      "difficulty": "Intermediate",
+      "duration": "1 week",
+      "topics": [
+        "Data Structures",
+        "Pub/Sub",
+        "Caching Strategies",
+        "Session Management",
+        "Rate Limiting"
+      ],
+      "project": "Implement a caching layer for an API"
+    },
+    "CICD": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Pipeline Design",
+        "GitHub Actions",
+        "Jenkins",
+        "Automated Testing",
+        "Deployment Strategies"
+      ],
+      "project": "Set up CI/CD for a full-stack app"
+    },
+    "Linux": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Shell Commands",
+        "File System",
+        "Process Management",
+        "Permissions",
+        "Shell Scripting",
+        "Networking"
+      ],
+      "project": "Automate server setup with bash scripts"
+    },
+    "Security": {
+      "difficulty": "Advanced",
+      "duration": "2 weeks",
+      "topics": [
+        "OWASP Top 10",
+        "Authentication",
+        "Authorization",
+        "Encryption",
+        "Input Validation",
+        "Security Headers"
+      ],
+      "project": "Perform a security audit on a web app"
+    },
+    "Authentication": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Session vs Token",
+        "JWT",
+        "OAuth 2.0",
+        "RBAC",
+        "Password Hashing",
+        "MFA"
+      ],
+      "project": "Implement JWT authentication"
+    },
+    "LLM": {
+      "difficulty": "Advanced",
+      "duration": "3-4 weeks",
+      "topics": [
+        "Transformer Architecture",
+        "Attention Mechanism",
+        "Fine-Tuning",
+        "Prompt Engineering",
+        "RAG",
+        "Evaluation"
+      ],
+      "project": "Build a RAG-based Q&A system"
+    },
+    "AI Agents": {
+      "difficulty": "Advanced",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Agent Architecture",
+        "Tool Use",
+        "Planning",
+        "Memory Systems",
+        "Multi-Agent Systems",
+        "LangGraph"
+      ],
+      "project": "Build an autonomous research agent"
+    },
+    "RAG": {
+      "difficulty": "Advanced",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Vector Databases",
+        "Embeddings",
+        "Chunking Strategies",
+        "Retrieval",
+        "Re-ranking",
+        "Evaluation"
+      ],
+      "project": "Build a document Q&A system"
+    },
+    "LangChain": {
+      "difficulty": "Advanced",
+      "duration": "2 weeks",
+      "topics": [
+        "Chains",
+        "Agents",
+        "Tools",
+        "Memory",
+        "Document Loaders",
+        "Prompt Templates"
+      ],
+      "project": "Build a conversational data analyst"
+    },
+    "MLOps": {
+      "difficulty": "Advanced",
+      "duration": "2-3 weeks",
+      "topics": [
+        "Model Versioning",
+        "Experiment Tracking",
+        "Model Registry",
+        "A/B Testing",
+        "Monitoring",
+        "Pipeline Automation"
+      ],
+      "project": "Set up an end-to-end ML pipeline"
+    },
+    "Model Deployment": {
+      "difficulty": "Advanced",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Model Serving",
+        "API Design",
+        "Containerization",
+        "Load Testing",
+        "Monitoring",
+        "A/B Testing"
+      ],
+      "project": "Deploy an ML model to production"
+    },
+    "Data Preprocessing": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Missing Values",
+        "Encoding",
+        "Scaling",
+        "Feature Selection",
+        "Outlier Detection"
+      ],
+      "project": "Clean and prepare a messy dataset"
+    },
+    "API Development": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "API Design",
+        "Documentation",
+        "Testing",
+        "Versioning",
+        "Error Handling",
+        "Rate Limiting"
+      ],
+      "project": "Build and document a production API"
+    },
+    "Cloud Computing": {
+      "difficulty": "Intermediate",
+      "duration": "2 weeks",
+      "topics": [
+        "Cloud Models",
+        "Compute Services",
+        "Storage",
+        "Networking",
+        "Cost Management",
+        "Security"
+      ],
+      "project": "Deploy an app to a cloud provider"
+    },
+    "Exploratory Data Analysis": {
+      "difficulty": "Intermediate",
+      "duration": "1-2 weeks",
+      "topics": [
+        "Data Profiling",
+        "Visualization",
+        "Statistical Tests",
+        "Correlation",
+        "Feature Relationships"
+      ],
+      "project": "Perform EDA on a Kaggle dataset"
+    },
+    "Data Cleaning": {
+      "difficulty": "Intermediate",
+      "duration": "1 week",
+      "topics": [
+        "Missing Data",
+        "Duplicates",
+        "Inconsistencies",
+        "Standardization",
+        "Validation"
+      ],
+      "project": "Clean a raw dataset for analysis"
+    },
+    "Communication": {
+      "difficulty": "Beginner",
+      "duration": "Ongoing",
+      "topics": [
+        "Technical Writing",
+        "Presentation Skills",
+        "Stakeholder Management",
+        "Documentation"
+      ],
+      "project": "Write a technical blog post"
+    },
+    "Critical Thinking": {
+      "difficulty": "Beginner",
+      "duration": "Ongoing",
+      "topics": [
+        "Problem Decomposition",
+        "Root Cause Analysis",
+        "Logical Reasoning",
+        "Decision Making"
+      ],
+      "project": "Solve a system design case study"
+    },
+    "Business Acumen": {
+      "difficulty": "Intermediate",
+      "duration": "Ongoing",
+      "topics": [
+        "Market Analysis",
+        "Financial Metrics",
+        "Strategy",
+        "Product Thinking"
+      ],
+      "project": "Create a business case for a product feature"
+    }
+  },
+  "skill_groups": {
+    "AI/ML Fundamentals": [
+      "Machine Learning",
+      "Deep Learning",
+      "Neural Networks",
+      "Statistics",
+      "Linear Algebra",
+      "Scikit-learn"
+    ],
+    "AI/ML Frameworks": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras"
+    ],
+    "NLP & GenAI": [
+      "NLP",
+      "LLM",
+      "RAG",
+      "LangChain",
+      "AI Agents",
+      "Hugging Face"
+    ],
+    "Computer Vision": [
+      "Computer Vision",
+      "OpenCV",
+      "Image Processing",
+      "Object Detection"
+    ],
+    "Backend Development": [
+      "Python",
+      "Java",
+      "Node.js",
+      "FastAPI",
+      "Django",
+      "Flask",
+      "REST API",
+      "GraphQL"
+    ],
+    "Frontend Development": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "HTML",
+      "CSS"
+    ],
+    "Data Engineering": [
+      "SQL",
+      "Pandas",
+      "NumPy",
+      "Data Visualization",
+      "Apache Spark",
+      "Apache Airflow",
+      "ETL"
+    ],
+    "DevOps": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Linux",
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "Databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "MySQL",
+      "Elasticsearch"
+    ],
+    "Tools & Practices": [
+      "Git",
+      "System Design",
+      "Microservices",
+      "Security",
+      "Authentication",
+      "MLOps",
+      "Model Deployment"
+    ]
+  }
+}

@@ -1,0 +1,492 @@
+{
+  "companies": [
+    {
+      "name": "Zoho",
+      "industry": "SaaS / Cloud Software",
+      "description": "Build and ship products from India to the world. Zoho builds SaaS products for businesses.",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "description": "Build and maintain Zoho's suite of cloud-based business applications using modern web technologies.",
+          "required_skills": ["Python", "JavaScript", "React", "Node.js", "SQL", "HTML", "CSS", "REST API", "Git", "Docker"],
+          "preferred_skills": ["TypeScript", "Angular", "PostgreSQL", "Redis", "CI/CD", "Linux"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "JavaScript": "critical",
+            "React": "high",
+            "Node.js": "high",
+            "SQL": "critical",
+            "HTML": "high",
+            "CSS": "high",
+            "REST API": "high",
+            "Git": "medium",
+            "Docker": "medium"
+          }
+        },
+        {
+          "title": "Data Analyst",
+          "description": "Analyze product usage data and business metrics to drive decisions across Zoho's product ecosystem.",
+          "required_skills": ["SQL", "Python", "Excel", "Data Visualization", "Statistics", "Pandas", "Data Cleaning", "Communication"],
+          "preferred_skills": ["Tableau", "Power BI", "R", "Google Analytics", "Machine Learning"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "SQL": "critical",
+            "Python": "critical",
+            "Excel": "high",
+            "Data Visualization": "high",
+            "Statistics": "high",
+            "Pandas": "high",
+            "Data Cleaning": "medium",
+            "Communication": "high"
+          }
+        },
+        {
+          "title": "AI/ML Engineer",
+          "description": "Develop AI-powered features for Zoho's product suite including NLP, recommendations, and automation.",
+          "required_skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "NLP", "SQL", "Git", "Docker", "REST API"],
+          "preferred_skills": ["PyTorch", "Computer Vision", "Scikit-learn", "AWS", "Kubernetes"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "Deep Learning": "high",
+            "TensorFlow": "high",
+            "NLP": "high",
+            "SQL": "medium",
+            "Git": "medium",
+            "Docker": "medium",
+            "REST API": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Freshworks",
+      "industry": "SaaS / Customer Experience",
+      "description": "Make it easy for businesses to serve their customers. Freshworks builds SaaS products for support, sales, and marketing.",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "description": "Build and enhance Freshworks' suite of SaaS products for customer service, IT, and marketing teams.",
+          "required_skills": ["Ruby", "JavaScript", "React", "SQL", "REST API", "HTML", "CSS", "Git", "Docker"],
+          "preferred_skills": ["Python", "Node.js", "PostgreSQL", "Redis", "CI/CD", "AWS"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "Ruby": "critical",
+            "JavaScript": "critical",
+            "React": "high",
+            "SQL": "high",
+            "REST API": "high",
+            "HTML": "medium",
+            "CSS": "medium",
+            "Git": "medium",
+            "Docker": "medium"
+          }
+        },
+        {
+          "title": "Data Scientist",
+          "description": "Build ML models for product recommendations, churn prediction, and intelligent automation features.",
+          "required_skills": ["Python", "Machine Learning", "SQL", "Statistics", "Pandas", "Scikit-learn", "Data Visualization", "Deep Learning"],
+          "preferred_skills": ["TensorFlow", "NLP", "AWS", "Docker", "A/B Testing"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "SQL": "high",
+            "Statistics": "critical",
+            "Pandas": "high",
+            "Scikit-learn": "high",
+            "Data Visualization": "medium",
+            "Deep Learning": "high"
+          }
+        },
+        {
+          "title": "Full Stack Developer",
+          "description": "Develop end-to-end features across frontend and backend for Freshworks' product platform.",
+          "required_skills": ["JavaScript", "TypeScript", "React", "Node.js", "SQL", "HTML", "CSS", "REST API", "Git", "Docker"],
+          "preferred_skills": ["Next.js", "PostgreSQL", "MongoDB", "AWS", "Tailwind CSS", "CI/CD"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "JavaScript": "critical",
+            "TypeScript": "high",
+            "React": "critical",
+            "Node.js": "critical",
+            "SQL": "high",
+            "HTML": "high",
+            "CSS": "high",
+            "REST API": "high",
+            "Git": "medium",
+            "Docker": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TCS",
+      "industry": "IT Services / Consulting",
+      "description": "One of the largest IT services companies. TCS serves clients across banking, retail, healthcare, and more.",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "description": "Develop enterprise-grade applications for global clients across banking, retail, and healthcare domains.",
+          "required_skills": ["Java", "Python", "SQL", "REST API", "Git", "Docker", "Spring", "HTML", "CSS"],
+          "preferred_skills": ["Microservices", "Kubernetes", "AWS", "CI/CD", "Agile"],
+          "experience_level": "Fresher - 3 Years",
+          "skill_weights": {
+            "Java": "critical",
+            "Python": "high",
+            "SQL": "critical",
+            "REST API": "high",
+            "Git": "medium",
+            "Docker": "medium",
+            "Spring": "high",
+            "HTML": "medium",
+            "CSS": "medium"
+          }
+        },
+        {
+          "title": "Data Scientist",
+          "description": "Build predictive models and analytics solutions for enterprise clients to optimize business outcomes.",
+          "required_skills": ["Python", "Machine Learning", "SQL", "Statistics", "Pandas", "NumPy", "Data Visualization", "Scikit-learn", "Excel"],
+          "preferred_skills": ["Deep Learning", "TensorFlow", "NLP", "Tableau", "R"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "SQL": "high",
+            "Statistics": "critical",
+            "Pandas": "critical",
+            "NumPy": "high",
+            "Data Visualization": "high",
+            "Scikit-learn": "high",
+            "Excel": "medium"
+          }
+        },
+        {
+          "title": "AI Engineer",
+          "description": "Design and deploy AI solutions including chatbots, recommendation engines, and computer vision systems.",
+          "required_skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "NLP", "Docker", "REST API", "SQL"],
+          "preferred_skills": ["Computer Vision", "Kubernetes", "AWS", "MLOps", "Model Deployment"],
+          "experience_level": "1 - 4 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "Deep Learning": "critical",
+            "TensorFlow": "high",
+            "PyTorch": "high",
+            "NLP": "high",
+            "Docker": "medium",
+            "REST API": "medium",
+            "SQL": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Infosys",
+      "industry": "IT Services / Consulting",
+      "description": "Global leader in next-generation digital services and consulting. Infosys enables clients to transform their businesses.",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "description": "Build scalable software solutions using modern frameworks for Infosys's global enterprise clients.",
+          "required_skills": ["Java", "Python", "JavaScript", "SQL", "REST API", "Spring", "React", "Git", "Docker"],
+          "preferred_skills": ["Microservices", "Kubernetes", "AWS", "Angular", "CI/CD"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "Java": "critical",
+            "Python": "high",
+            "JavaScript": "high",
+            "SQL": "critical",
+            "REST API": "high",
+            "Spring": "high",
+            "React": "medium",
+            "Git": "medium",
+            "Docker": "medium"
+          }
+        },
+        {
+          "title": "Data Analyst",
+          "description": "Transform raw data into actionable insights for enterprise clients across multiple industries.",
+          "required_skills": ["SQL", "Python", "Excel", "Data Visualization", "Tableau", "Statistics", "Pandas", "Power BI"],
+          "preferred_skills": ["R", "Google Analytics", "Machine Learning", "ETL", "Data Cleaning"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "SQL": "critical",
+            "Python": "high",
+            "Excel": "critical",
+            "Data Visualization": "critical",
+            "Tableau": "high",
+            "Statistics": "high",
+            "Pandas": "high",
+            "Power BI": "medium"
+          }
+        },
+        {
+          "title": "Backend Developer",
+          "description": "Design and build robust backend systems, APIs, and microservices for enterprise applications.",
+          "required_skills": ["Java", "Python", "SQL", "REST API", "Spring", "Docker", "Git", "Linux", "Microservices"],
+          "preferred_skills": ["Kubernetes", "AWS", "Redis", "MongoDB", "CI/CD", "System Design"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "Java": "critical",
+            "Python": "high",
+            "SQL": "critical",
+            "REST API": "critical",
+            "Spring": "high",
+            "Docker": "high",
+            "Git": "medium",
+            "Linux": "medium",
+            "Microservices": "high"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cognizant",
+      "industry": "IT Services / Digital Transformation",
+      "description": "Modernize technology, reimagine processes, and transform experiences so businesses stay ahead.",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "description": "Build digital transformation solutions using modern tech stacks for Fortune 500 clients.",
+          "required_skills": ["Java", "Python", "JavaScript", "SQL", "Spring", "React", "REST API", "Git", "Docker"],
+          "preferred_skills": ["Microservices", "Kubernetes", "AWS", "Angular", "CI/CD", "Agile"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "Java": "critical",
+            "Python": "high",
+            "JavaScript": "high",
+            "SQL": "critical",
+            "Spring": "high",
+            "React": "medium",
+            "REST API": "high",
+            "Git": "medium",
+            "Docker": "medium"
+          }
+        },
+        {
+          "title": "Data Analyst",
+          "description": "Deliver data-driven insights and analytics dashboards for enterprise digital transformation projects.",
+          "required_skills": ["SQL", "Python", "Excel", "Tableau", "Power BI", "Statistics", "Data Visualization", "Pandas"],
+          "preferred_skills": ["R", "Machine Learning", "Google Analytics", "ETL", "Data Cleaning"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "SQL": "critical",
+            "Python": "high",
+            "Excel": "critical",
+            "Tableau": "high",
+            "Power BI": "high",
+            "Statistics": "high",
+            "Data Visualization": "high",
+            "Pandas": "medium"
+          }
+        },
+        {
+          "title": "AI/ML Engineer",
+          "description": "Develop and deploy AI/ML solutions for enterprise clients in healthcare, banking, and retail.",
+          "required_skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "SQL", "Docker", "REST API", "Git"],
+          "preferred_skills": ["NLP", "Computer Vision", "Kubernetes", "AWS", "MLOps", "Model Deployment"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "Deep Learning": "critical",
+            "TensorFlow": "high",
+            "PyTorch": "high",
+            "SQL": "medium",
+            "Docker": "medium",
+            "REST API": "medium",
+            "Git": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Accenture",
+      "industry": "Consulting / Technology Services",
+      "description": "Deliver on the promise of technology and human ingenuity. Serve clients in more than 120 countries.",
+      "roles": [
+        {
+          "title": "Software Developer",
+          "description": "Build innovative technology solutions as part of large-scale digital transformation engagements.",
+          "required_skills": ["Java", "Python", "JavaScript", "SQL", "Spring", "REST API", "Docker", "Git", "Microservices"],
+          "preferred_skills": ["Kubernetes", "AWS", "Azure", "React", "CI/CD", "System Design"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "Java": "critical",
+            "Python": "high",
+            "JavaScript": "high",
+            "SQL": "high",
+            "Spring": "high",
+            "REST API": "high",
+            "Docker": "medium",
+            "Git": "medium",
+            "Microservices": "high"
+          }
+        },
+        {
+          "title": "Data Scientist",
+          "description": "Apply advanced analytics and ML to solve complex business problems for global enterprise clients.",
+          "required_skills": ["Python", "Machine Learning", "SQL", "Statistics", "Pandas", "NumPy", "Scikit-learn", "Data Visualization", "Deep Learning"],
+          "preferred_skills": ["TensorFlow", "PyTorch", "NLP", "Tableau", "Power BI", "AWS"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "SQL": "high",
+            "Statistics": "critical",
+            "Pandas": "critical",
+            "NumPy": "high",
+            "Scikit-learn": "high",
+            "Data Visualization": "medium",
+            "Deep Learning": "high"
+          }
+        },
+        {
+          "title": "Backend Developer",
+          "description": "Design scalable backend architectures and APIs for enterprise-grade applications.",
+          "required_skills": ["Java", "Python", "SQL", "REST API", "Spring", "Docker", "Linux", "Microservices", "Git"],
+          "preferred_skills": ["Kubernetes", "AWS", "Redis", "Kafka", "CI/CD", "System Design"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "Java": "critical",
+            "Python": "high",
+            "SQL": "critical",
+            "REST API": "critical",
+            "Spring": "high",
+            "Docker": "high",
+            "Linux": "medium",
+            "Microservices": "high",
+            "Git": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Amazon",
+      "industry": "Technology / E-Commerce / Cloud",
+      "description": "Start building. Amazon is guided by four principles: customer obsession, passion for invention, operational excellence, and long-term thinking.",
+      "roles": [
+        {
+          "title": "Software Development Engineer",
+          "description": "Build and scale distributed systems that power Amazon's e-commerce and AWS cloud platforms.",
+          "required_skills": ["Java", "Python", "SQL", "REST API", "Docker", "AWS", "Linux", "Microservices", "System Design", "Git"],
+          "preferred_skills": ["Kubernetes", "Redis", "Kafka", "CI/CD", "C++", "Go"],
+          "experience_level": "0 - 2 Years",
+          "skill_weights": {
+            "Java": "critical",
+            "Python": "high",
+            "SQL": "high",
+            "REST API": "high",
+            "Docker": "high",
+            "AWS": "critical",
+            "Linux": "critical",
+            "Microservices": "high",
+            "System Design": "critical",
+            "Git": "medium"
+          }
+        },
+        {
+          "title": "Applied Scientist",
+          "description": "Apply ML and statistical methods to solve problems in recommendation, search, and logistics.",
+          "required_skills": ["Python", "Machine Learning", "Deep Learning", "SQL", "Statistics", "TensorFlow", "PyTorch", "Scikit-learn", "AWS"],
+          "preferred_skills": ["NLP", "Computer Vision", "Docker", "Kubernetes", "Spark"],
+          "experience_level": "0 - 3 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "Deep Learning": "critical",
+            "SQL": "high",
+            "Statistics": "critical",
+            "TensorFlow": "high",
+            "PyTorch": "high",
+            "Scikit-learn": "high",
+            "AWS": "high"
+          }
+        },
+        {
+          "title": "Data Analyst",
+          "description": "Analyze massive datasets to drive product and business decisions across Amazon's divisions.",
+          "required_skills": ["SQL", "Python", "Excel", "Data Visualization", "Statistics", "Pandas", "Tableau", "ETL"],
+          "preferred_skills": ["Machine Learning", "Power BI", "AWS", "Redshift", "A/B Testing"],
+          "experience_level": "Fresher - 2 Years",
+          "skill_weights": {
+            "SQL": "critical",
+            "Python": "critical",
+            "Excel": "high",
+            "Data Visualization": "high",
+            "Statistics": "critical",
+            "Pandas": "high",
+            "Tableau": "medium",
+            "ETL": "high"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "industry": "Technology / Cloud / Software",
+      "description": "Empower every person and every organization on the planet to achieve more. Microsoft builds platforms and tools.",
+      "roles": [
+        {
+          "title": "Software Engineer",
+          "description": "Build core platform services and developer tools for Microsoft Azure and enterprise products.",
+          "required_skills": ["C#", "Python", "TypeScript", "SQL", "REST API", "Docker", "Azure", "Git", "Microservices", "System Design"],
+          "preferred_skills": ["Kubernetes", "C++", "Go", "CI/CD", "Linux", "Redis"],
+          "experience_level": "0 - 2 Years",
+          "skill_weights": {
+            "C#": "critical",
+            "Python": "high",
+            "TypeScript": "high",
+            "SQL": "high",
+            "REST API": "high",
+            "Docker": "high",
+            "Azure": "critical",
+            "Git": "medium",
+            "Microservices": "high",
+            "System Design": "critical"
+          }
+        },
+        {
+          "title": "Data Scientist",
+          "description": "Develop ML models and analytics for Microsoft products including Office 365, Bing, and Azure.",
+          "required_skills": ["Python", "Machine Learning", "Deep Learning", "SQL", "Statistics", "TensorFlow", "PyTorch", "Pandas", "Scikit-learn"],
+          "preferred_skills": ["NLP", "Computer Vision", "Azure", "Spark", "Docker", "Power BI"],
+          "experience_level": "0 - 3 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "Deep Learning": "high",
+            "SQL": "high",
+            "Statistics": "critical",
+            "TensorFlow": "high",
+            "PyTorch": "high",
+            "Pandas": "high",
+            "Scikit-learn": "high"
+          }
+        },
+        {
+          "title": "AI Engineer",
+          "description": "Build AI-powered experiences across Microsoft's product suite using cutting-edge ML research.",
+          "required_skills": ["Python", "Machine Learning", "Deep Learning", "PyTorch", "TensorFlow", "NLP", "Computer Vision", "Docker", "REST API", "SQL"],
+          "preferred_skills": ["Azure", "Kubernetes", "C++", "CUDA", "Model Deployment", "MLOps"],
+          "experience_level": "1 - 3 Years",
+          "skill_weights": {
+            "Python": "critical",
+            "Machine Learning": "critical",
+            "Deep Learning": "critical",
+            "PyTorch": "critical",
+            "TensorFlow": "high",
+            "NLP": "high",
+            "Computer Vision": "high",
+            "Docker": "medium",
+            "REST API": "medium",
+            "SQL": "medium"
+          }
+        }
+      ]
+    }
+  ]
+}

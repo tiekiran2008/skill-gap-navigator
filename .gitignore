@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+frontend/dist/
+
+# User data (runtime-generated)
+data/user_data/
+
+# Uploads
+backend/uploads/
+
+# Logs
+*.log
+backend/server.log
+
+# Temp files
+*.tmp
+start_*.py
+start_*.bat
+start_*.ps1
+start_*.cjs
+run_*.py
+run_*.ps1
+launch_*.py
+launch_*.cjs
+check_ports.py
+_test_all_endpoints.py

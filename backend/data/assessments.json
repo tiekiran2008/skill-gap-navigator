@@ -1,0 +1,1970 @@
+[
+  {
+    "id": "py-001",
+    "skill": "Python",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is the output of: print(type(5))?",
+    "options": [
+      "<class int>",
+      "<class float>",
+      "<class str>",
+      "<class number>"
+    ],
+    "correct_answer": "<class int>",
+    "explanation": "5 is an integer literal so type() returns int."
+  },
+  {
+    "id": "py-002",
+    "skill": "Python",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "func",
+      "def",
+      "define"
+    ],
+    "correct_answer": "def",
+    "explanation": "Python uses def keyword to define functions."
+  },
+  {
+    "id": "py-003",
+    "skill": "Python",
+    "category": "Data Structures",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the output of: print([1,2,3] + [4,5])?",
+    "options": [
+      "[1,2,3,4,5]",
+      "[1,2,3,[4,5]]",
+      "Error",
+      "[5,7,3]"
+    ],
+    "correct_answer": "[1,2,3,4,5]",
+    "explanation": "The + operator concatenates lists in Python."
+  },
+  {
+    "id": "py-004",
+    "skill": "Python",
+    "category": "Data Structures",
+    "difficulty": "Intermediate",
+    "type": "code",
+    "question": "What is the output of: numbers = [1,2,3]; print([x*2 for x in numbers])",
+    "options": [
+      "[2,4,6]",
+      "[1,2,3,1,2,3]",
+      "[1,4,9]",
+      "Error"
+    ],
+    "correct_answer": "[2,4,6]",
+    "explanation": "List comprehension multiplies each element by 2."
+  },
+  {
+    "id": "py-005",
+    "skill": "Python",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What does self refer to in a Python class method?",
+    "options": [
+      "The class itself",
+      "The parent class",
+      "The current instance",
+      "The module"
+    ],
+    "correct_answer": "The current instance",
+    "explanation": "self refers to the current instance of the class."
+  },
+  {
+    "id": "py-006",
+    "skill": "Python",
+    "category": "Error Handling",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "Which block is always executed after try-except?",
+    "options": [
+      "catch",
+      "else",
+      "finally",
+      "exit"
+    ],
+    "correct_answer": "finally",
+    "explanation": "finally block always executes regardless of exceptions."
+  },
+  {
+    "id": "py-007",
+    "skill": "Python",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is a decorator in Python?",
+    "options": [
+      "A type of comment",
+      "A function that modifies another function",
+      "A class attribute",
+      "A loop construct"
+    ],
+    "correct_answer": "A function that modifies another function",
+    "explanation": "Decorators are higher-order functions that modify or extend other functions."
+  },
+  {
+    "id": "py-008",
+    "skill": "Python",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "code",
+    "question": "What is the output of: def f(): return [lambda x: x*i for i in range(3)]; print([f()[0](1), f()[1](1), f()[2](1)])?",
+    "options": [
+      "[0,1,2]",
+      "[2,2,2]",
+      "[0,0,0]",
+      "Error"
+    ],
+    "correct_answer": "[2,2,2]",
+    "explanation": "Closure captures variable by reference so i=2 at evaluation time."
+  },
+  {
+    "id": "py-009",
+    "skill": "Python",
+    "category": "Concurrency",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the GIL in Python?",
+    "options": [
+      "Global Import Lock",
+      "Global Interpreter Lock",
+      "General Interface Layer",
+      "Graph Integration Library"
+    ],
+    "correct_answer": "Global Interpreter Lock",
+    "explanation": "GIL ensures only one thread executes Python bytecode at a time."
+  },
+  {
+    "id": "py-010",
+    "skill": "Python",
+    "category": "Data Structures",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "Which data structure uses key-value pairs?",
+    "options": [
+      "List",
+      "Tuple",
+      "Dictionary",
+      "Set"
+    ],
+    "correct_answer": "Dictionary",
+    "explanation": "Dictionaries store data as key-value pairs."
+  },
+  {
+    "id": "java-001",
+    "skill": "Java",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "Which method is the entry point of a Java application?",
+    "options": [
+      "start()",
+      "init()",
+      "main()",
+      "run()"
+    ],
+    "correct_answer": "main()",
+    "explanation": "The main() method is the entry point of any Java application."
+  },
+  {
+    "id": "java-002",
+    "skill": "Java",
+    "category": "OOP",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "Which keyword is used to create a class in Java?",
+    "options": [
+      "struct",
+      "class",
+      "object",
+      "type"
+    ],
+    "correct_answer": "class",
+    "explanation": "Java uses class keyword to define classes."
+  },
+  {
+    "id": "java-003",
+    "skill": "Java",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the difference between == and .equals() in Java?",
+    "options": [
+      "No difference",
+      "== compares references .equals() compares content",
+      "== is faster",
+      ".equals() compares references"
+    ],
+    "correct_answer": "== compares references .equals() compares content",
+    "explanation": "== checks reference equality while .equals() checks value equality."
+  },
+  {
+    "id": "java-004",
+    "skill": "Java",
+    "category": "Collections",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "Which collection does not allow duplicate elements?",
+    "options": [
+      "ArrayList",
+      "LinkedList",
+      "HashSet",
+      "Vector"
+    ],
+    "correct_answer": "HashSet",
+    "explanation": "HashSet does not allow duplicate elements."
+  },
+  {
+    "id": "java-005",
+    "skill": "Java",
+    "category": "Concurrency",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is a deadlock in Java?",
+    "options": [
+      "A runtime exception",
+      "Two threads waiting for each other locks indefinitely",
+      "A compilation error",
+      "A memory leak"
+    ],
+    "correct_answer": "Two threads waiting for each other locks indefinitely",
+    "explanation": "Deadlock occurs when two or more threads are blocked forever."
+  },
+  {
+    "id": "java-006",
+    "skill": "Java",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What are the primitive data types in Java?",
+    "options": [
+      "String Array List",
+      "int char boolean double etc",
+      "Object Class Interface",
+      "None of the above"
+    ],
+    "correct_answer": "int char boolean double etc",
+    "explanation": "Java has 8 primitive types: byte short int long float double char boolean."
+  },
+  {
+    "id": "java-007",
+    "skill": "Java",
+    "category": "OOP",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is polymorphism in Java?",
+    "options": [
+      "Using multiple classes",
+      "Ability of objects to take many forms",
+      "Having multiple variables",
+      "Using multiple methods"
+    ],
+    "correct_answer": "Ability of objects to take many forms",
+    "explanation": "Polymorphism allows objects to be treated as instances of their parent class."
+  },
+  {
+    "id": "java-008",
+    "skill": "Java",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the purpose of the volatile keyword in Java?",
+    "options": [
+      "To make a variable thread-safe by ensuring visibility",
+      "To make a variable constant",
+      "To make a variable static",
+      "To make a variable transient"
+    ],
+    "correct_answer": "To make a variable thread-safe by ensuring visibility",
+    "explanation": "volatile ensures that changes to a variable are immediately visible to other threads."
+  },
+  {
+    "id": "java-009",
+    "skill": "Java",
+    "category": "Collections",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the time complexity of HashMap lookup?",
+    "options": [
+      "O(n)",
+      "O(1) average",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correct_answer": "O(1) average",
+    "explanation": "HashMap provides constant-time average lookup using hash tables."
+  },
+  {
+    "id": "js-001",
+    "skill": "JavaScript",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is the output of: console.log(typeof null)?",
+    "options": [
+      "null",
+      "object",
+      "undefined",
+      "boolean"
+    ],
+    "correct_answer": "object",
+    "explanation": "typeof null returns object - this is a well-known JavaScript bug."
+  },
+  {
+    "id": "js-002",
+    "skill": "JavaScript",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "Which method selects an element by its ID?",
+    "options": [
+      "querySelector",
+      "getElementById",
+      "getElementsByClassName",
+      "findElement"
+    ],
+    "correct_answer": "getElementById",
+    "explanation": "document.getElementById() selects an element by its ID attribute."
+  },
+  {
+    "id": "js-003",
+    "skill": "JavaScript",
+    "category": "ES6",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What does the spread operator (...) do?",
+    "options": [
+      "Merges arrays objects",
+      "Deletes elements",
+      "Creates loops",
+      "Defines constants"
+    ],
+    "correct_answer": "Merges arrays objects",
+    "explanation": "The spread operator expands iterables into individual elements."
+  },
+  {
+    "id": "js-004",
+    "skill": "JavaScript",
+    "category": "Scope",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the difference between let and var?",
+    "options": [
+      "No difference",
+      "let has block scope var has function scope",
+      "var is newer",
+      "let is faster"
+    ],
+    "correct_answer": "let has block scope var has function scope",
+    "explanation": "let was introduced in ES6 with block scoping while var is function-scoped."
+  },
+  {
+    "id": "js-005",
+    "skill": "JavaScript",
+    "category": "Async",
+    "difficulty": "Intermediate",
+    "type": "code",
+    "question": "What is the output of: console.log(1); setTimeout(() => console.log(2), 0); console.log(3);",
+    "options": [
+      "1 2 3",
+      "1 3 2",
+      "2 1 3",
+      "3 2 1"
+    ],
+    "correct_answer": "1 3 2",
+    "explanation": "setTimeout is async so 2 prints after the synchronous 1 and 3."
+  },
+  {
+    "id": "js-006",
+    "skill": "JavaScript",
+    "category": "Closures",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      "A way to close browser windows",
+      "A function that remembers its outer scope",
+      "A type of loop",
+      "An error handling mechanism"
+    ],
+    "correct_answer": "A function that remembers its outer scope",
+    "explanation": "Closures allow functions to access variables from their enclosing scope."
+  },
+  {
+    "id": "js-007",
+    "skill": "JavaScript",
+    "category": "Prototypes",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the prototype chain?",
+    "options": [
+      "A linked list of arrays",
+      "The mechanism for inheritance in JS",
+      "A type of data structure",
+      "A sorting algorithm"
+    ],
+    "correct_answer": "The mechanism for inheritance in JS",
+    "explanation": "JavaScript uses prototype-based inheritance where objects delegate to other objects."
+  },
+  {
+    "id": "js-008",
+    "skill": "JavaScript",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "Which company developed JavaScript?",
+    "options": [
+      "Microsoft",
+      "Google",
+      "Netscape",
+      "Apple"
+    ],
+    "correct_answer": "Netscape",
+    "explanation": "JavaScript was created by Brendan Eich at Netscape in 1995."
+  },
+  {
+    "id": "sql-001",
+    "skill": "SQL",
+    "category": "Queries",
+    "difficulty": "Beginner",
+    "type": "code",
+    "question": "What does this query return? SELECT COUNT(*) FROM users WHERE age > 25;",
+    "options": [
+      "The total number of users",
+      "The number of users older than 25",
+      "The sum of all ages",
+      "The average age"
+    ],
+    "correct_answer": "The number of users older than 25",
+    "explanation": "COUNT(*) with WHERE clause counts rows matching the condition."
+  },
+  {
+    "id": "sql-002",
+    "skill": "SQL",
+    "category": "Joins",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+    "options": [
+      "No difference",
+      "INNER returns only matching rows LEFT returns all from left table",
+      "LEFT is faster",
+      "INNER returns all rows"
+    ],
+    "correct_answer": "INNER returns only matching rows LEFT returns all from left table",
+    "explanation": "LEFT JOIN includes all rows from the left table even without matches."
+  },
+  {
+    "id": "sql-003",
+    "skill": "SQL",
+    "category": "Aggregation",
+    "difficulty": "Intermediate",
+    "type": "code",
+    "question": "What does: SELECT department, AVG(salary) FROM employees GROUP BY department; do?",
+    "options": [
+      "Returns total salary per department",
+      "Returns average salary per department",
+      "Returns max salary",
+      "Returns employee count"
+    ],
+    "correct_answer": "Returns average salary per department",
+    "explanation": "AVG() with GROUP BY calculates the average for each group."
+  },
+  {
+    "id": "sql-004",
+    "skill": "SQL",
+    "category": "Indexes",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is a database index?",
+    "options": [
+      "A type of table",
+      "A data structure that improves query speed",
+      "A backup mechanism",
+      "A constraint"
+    ],
+    "correct_answer": "A data structure that improves query speed",
+    "explanation": "Indexes allow databases to find data without scanning entire tables."
+  },
+  {
+    "id": "sql-005",
+    "skill": "SQL",
+    "category": "Normalization",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is database normalization?",
+    "options": [
+      "Making data uniform",
+      "Organizing data to reduce redundancy",
+      "Increasing table size",
+      "Adding more columns"
+    ],
+    "correct_answer": "Organizing data to reduce redundancy",
+    "explanation": "Normalization decomposes tables to eliminate data redundancy."
+  },
+  {
+    "id": "sql-006",
+    "skill": "SQL",
+    "category": "Queries",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "Which SQL keyword is used to sort results?",
+    "options": [
+      "ORDER BY",
+      "SORT BY",
+      "GROUP BY",
+      "ARRANGE BY"
+    ],
+    "correct_answer": "ORDER BY",
+    "explanation": "ORDER BY sorts the result set in ascending or descending order."
+  },
+  {
+    "id": "sql-007",
+    "skill": "SQL",
+    "category": "Subqueries",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is a correlated subquery?",
+    "options": [
+      "A subquery that runs once",
+      "A subquery that references outer query columns",
+      "A subquery in FROM clause",
+      "A subquery with JOIN"
+    ],
+    "correct_answer": "A subquery that references outer query columns",
+    "explanation": "Correlated subqueries are re-evaluated for each row of the outer query."
+  },
+  {
+    "id": "sql-008",
+    "skill": "SQL",
+    "category": "Transactions",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What does ACID stand for in databases?",
+    "options": [
+      "Atomicity Consistency Isolation Durability",
+      "Add Change Insert Delete",
+      "Association Correlation Integration Distribution",
+      "Analysis Computation Implementation Design"
+    ],
+    "correct_answer": "Atomicity Consistency Isolation Durability",
+    "explanation": "ACID properties ensure reliable transaction processing."
+  },
+  {
+    "id": "ml-001",
+    "skill": "Machine Learning",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is supervised learning?",
+    "options": [
+      "Learning without labels",
+      "Learning with labeled data",
+      "Learning from rewards",
+      "Learning by clustering"
+    ],
+    "correct_answer": "Learning with labeled data",
+    "explanation": "Supervised learning uses labeled input-output pairs for training."
+  },
+  {
+    "id": "ml-002",
+    "skill": "Machine Learning",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is overfitting?",
+    "options": [
+      "Model performs well on all data",
+      "Model memorizes training data but fails on new data",
+      "Model is too simple",
+      "Model trains too slowly"
+    ],
+    "correct_answer": "Model memorizes training data but fails on new data",
+    "explanation": "Overfitting occurs when a model learns noise instead of patterns."
+  },
+  {
+    "id": "ml-003",
+    "skill": "Machine Learning",
+    "category": "Algorithms",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "When should you use Random Forest over a single Decision Tree?",
+    "options": [
+      "When data is small",
+      "When you want to reduce variance and overfitting",
+      "When interpretability is critical",
+      "When training speed is priority"
+    ],
+    "correct_answer": "When you want to reduce variance and overfitting",
+    "explanation": "Random Forests combine multiple trees to reduce overfitting."
+  },
+  {
+    "id": "ml-004",
+    "skill": "Machine Learning",
+    "category": "Evaluation",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "Which metric is best for imbalanced classification?",
+    "options": [
+      "Accuracy",
+      "F1-Score",
+      "Mean Squared Error",
+      "R-Squared"
+    ],
+    "correct_answer": "F1-Score",
+    "explanation": "F1-Score balances precision and recall better for imbalanced data."
+  },
+  {
+    "id": "ml-005",
+    "skill": "Machine Learning",
+    "category": "Preprocessing",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is feature scaling?",
+    "options": [
+      "Adding more features",
+      "Normalizing feature ranges",
+      "Removing features",
+      "Creating polynomial features"
+    ],
+    "correct_answer": "Normalizing feature ranges",
+    "explanation": "Feature scaling ensures all features contribute equally to the model."
+  },
+  {
+    "id": "ml-006",
+    "skill": "Machine Learning",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "scenario",
+    "question": "You have a classification dataset with severe class imbalance. Which metric should you prioritize?",
+    "options": [
+      "Accuracy because it is simple",
+      "Precision because false positives are costly",
+      "Recall because false negatives are costly",
+      "F1-Score for balanced evaluation"
+    ],
+    "correct_answer": "F1-Score for balanced evaluation",
+    "explanation": "For imbalanced datasets F1-Score provides a balanced view of precision and recall."
+  },
+  {
+    "id": "ml-007",
+    "skill": "Machine Learning",
+    "category": "Ensemble",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the difference between Bagging and Boosting?",
+    "options": [
+      "No difference",
+      "Bagging trains in parallel Boosting trains sequentially",
+      "Bagging is faster",
+      "Boosting uses fewer models"
+    ],
+    "correct_answer": "Bagging trains in parallel Boosting trains sequentially",
+    "explanation": "Bagging reduces variance Boosting reduces bias through sequential training."
+  },
+  {
+    "id": "ml-008",
+    "skill": "Machine Learning",
+    "category": "Algorithms",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the curse of dimensionality?",
+    "options": [
+      "Too many classes",
+      "Data becomes sparse in high dimensions",
+      "Model is too fast",
+      "Too much memory"
+    ],
+    "correct_answer": "Data becomes sparse in high dimensions",
+    "explanation": "High-dimensional data becomes sparse making distance metrics less meaningful."
+  },
+  {
+    "id": "dl-001",
+    "skill": "Deep Learning",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is a neural network?",
+    "options": [
+      "A type of database",
+      "A computing system inspired by biological neurons",
+      "A sorting algorithm",
+      "A file format"
+    ],
+    "correct_answer": "A computing system inspired by biological neurons",
+    "explanation": "Neural networks are layered computing systems that learn patterns from data."
+  },
+  {
+    "id": "dl-002",
+    "skill": "Deep Learning",
+    "category": "Fundamentals",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the purpose of an activation function?",
+    "options": [
+      "To initialize weights",
+      "To introduce non-linearity",
+      "To reduce learning rate",
+      "To batch data"
+    ],
+    "correct_answer": "To introduce non-linearity",
+    "explanation": "Activation functions allow neural networks to learn non-linear patterns."
+  },
+  {
+    "id": "dl-003",
+    "skill": "Deep Learning",
+    "category": "Training",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is backpropagation?",
+    "options": [
+      "Forward pass through network",
+      "Algorithm to compute gradients for weight updates",
+      "A type of layer",
+      "Data preprocessing step"
+    ],
+    "correct_answer": "Algorithm to compute gradients for weight updates",
+    "explanation": "Backpropagation calculates gradients by propagating errors backward through the network."
+  },
+  {
+    "id": "dl-004",
+    "skill": "Deep Learning",
+    "category": "Architectures",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What makes CNNs effective for image tasks?",
+    "options": [
+      "They use recursion",
+      "They learn spatial hierarchies through convolution",
+      "They use attention only",
+      "They are shallow networks"
+    ],
+    "correct_answer": "They learn spatial hierarchies through convolution",
+    "explanation": "CNNs use convolutional filters to detect local patterns in images."
+  },
+  {
+    "id": "dl-005",
+    "skill": "Deep Learning",
+    "category": "Architectures",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the purpose of dropout in neural networks?",
+    "options": [
+      "To remove neurons permanently",
+      "To randomly deactivate neurons during training to prevent overfitting",
+      "To increase model size",
+      "To speed up training"
+    ],
+    "correct_answer": "To randomly deactivate neurons during training to prevent overfitting",
+    "explanation": "Dropout randomly disables neurons to prevent co-adaptation and overfitting."
+  },
+  {
+    "id": "dl-006",
+    "skill": "Deep Learning",
+    "category": "Training",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is batch normalization?",
+    "options": [
+      "Sorting data into batches",
+      "Normalizing layer inputs to stabilize training",
+      "Reducing batch size",
+      "Adding noise to batches"
+    ],
+    "correct_answer": "Normalizing layer inputs to stabilize training",
+    "explanation": "Batch normalization standardizes layer inputs to improve training stability."
+  },
+  {
+    "id": "dl-007",
+    "skill": "Deep Learning",
+    "category": "Optimization",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the difference between SGD and Adam optimizer?",
+    "options": [
+      "No difference",
+      "Adam uses adaptive learning rates per parameter",
+      "SGD is always better",
+      "Adam does not need gradients"
+    ],
+    "correct_answer": "Adam uses adaptive learning rates per parameter",
+    "explanation": "Adam combines momentum with adaptive learning rates for better convergence."
+  },
+  {
+    "id": "dl-008",
+    "skill": "Deep Learning",
+    "category": "Transfer Learning",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "When should you use transfer learning?",
+    "options": [
+      "Always",
+      "When you have limited data for a new task",
+      "When data is abundant",
+      "When compute is unlimited"
+    ],
+    "correct_answer": "When you have limited data for a new task",
+    "explanation": "Transfer learning leverages pre-trained models when target data is scarce."
+  },
+  {
+    "id": "pt-001",
+    "skill": "PyTorch",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is a Tensor in PyTorch?",
+    "options": [
+      "A type of layer",
+      "A multi-dimensional array with GPU support",
+      "A loss function",
+      "An optimizer"
+    ],
+    "correct_answer": "A multi-dimensional array with GPU support",
+    "explanation": "Tensors are the fundamental data structure in PyTorch with GPU acceleration."
+  },
+  {
+    "id": "pt-002",
+    "skill": "PyTorch",
+    "category": "Autograd",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What does autograd do in PyTorch?",
+    "options": [
+      "Automatically trains models",
+      "Computes gradients automatically for backpropagation",
+      "Optimizes hyperparameters",
+      "Loads data automatically"
+    ],
+    "correct_answer": "Computes gradients automatically for backpropagation",
+    "explanation": "Autograd tracks operations on tensors and computes gradients automatically."
+  },
+  {
+    "id": "pt-003",
+    "skill": "PyTorch",
+    "category": "Modules",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is nn.Module in PyTorch?",
+    "options": [
+      "A dataset class",
+      "Base class for all neural network layers",
+      "An optimizer",
+      "A data loader"
+    ],
+    "correct_answer": "Base class for all neural network layers",
+    "explanation": "nn.Module is the base class that all custom layers and models inherit from."
+  },
+  {
+    "id": "pt-004",
+    "skill": "PyTorch",
+    "category": "Training",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the correct order in a PyTorch training loop?",
+    "options": [
+      "Forward pass Compute loss Backward pass Update weights",
+      "Compute loss Forward pass Backward pass Update weights",
+      "Backward pass Compute loss Forward pass Update weights",
+      "Forward pass Backward pass Compute loss Update weights"
+    ],
+    "correct_answer": "Forward pass Compute loss Backward pass Update weights",
+    "explanation": "Forward then Loss then Backward then Step is the standard training loop."
+  },
+  {
+    "id": "pt-005",
+    "skill": "PyTorch",
+    "category": "Data Loading",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the purpose of DataLoader?",
+    "options": [
+      "To save models",
+      "To batch and shuffle data during training",
+      "To visualize results",
+      "To load pre-trained models"
+    ],
+    "correct_answer": "To batch and shuffle data during training",
+    "explanation": "DataLoader handles batching shuffling and parallel data loading."
+  },
+  {
+    "id": "pt-006",
+    "skill": "PyTorch",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the difference between model.train() and model.eval()?",
+    "options": [
+      "No difference",
+      "train() enables dropout/batchnorm training mode eval() disables them",
+      "train() is faster",
+      "eval() uses GPU"
+    ],
+    "correct_answer": "train() enables dropout/batchnorm training mode eval() disables them",
+    "explanation": "These modes affect behavior of dropout and batch normalization layers."
+  },
+  {
+    "id": "pt-007",
+    "skill": "PyTorch",
+    "category": "Optimization",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What does optimizer.zero_grad() do?",
+    "options": [
+      "Removes the optimizer",
+      "Clears old gradients before computing new ones",
+      "Zeros out all weights",
+      "Stops training"
+    ],
+    "correct_answer": "Clears old gradients before computing new ones",
+    "explanation": "Gradients accumulate by default so zero_grad() clears them each step."
+  },
+  {
+    "id": "pt-008",
+    "skill": "PyTorch",
+    "category": "Saving",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What does torch.save() do?",
+    "options": [
+      "Saves the model architecture only",
+      "Serializes tensors and objects to disk",
+      "Transfers model to GPU",
+      "Creates a backup"
+    ],
+    "correct_answer": "Serializes tensors and objects to disk",
+    "explanation": "torch.save() uses pickle serialization to save tensors and objects."
+  },
+  {
+    "id": "nlp-001",
+    "skill": "NLP",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is tokenization in NLP?",
+    "options": [
+      "Encrypting text",
+      "Splitting text into tokens",
+      "Translating text",
+      "Compressing text"
+    ],
+    "correct_answer": "Splitting text into tokens",
+    "explanation": "Tokenization breaks text into smaller units for processing."
+  },
+  {
+    "id": "nlp-002",
+    "skill": "NLP",
+    "category": "Embeddings",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What are word embeddings?",
+    "options": [
+      "One-hot encoded vectors",
+      "Dense vector representations of words",
+      "Text files",
+      "Database records"
+    ],
+    "correct_answer": "Dense vector representations of words",
+    "explanation": "Word embeddings capture semantic relationships in continuous vector space."
+  },
+  {
+    "id": "nlp-003",
+    "skill": "NLP",
+    "category": "Transformers",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the attention mechanism?",
+    "options": [
+      "A type of data loading",
+      "A mechanism to weigh importance of different input parts",
+      "A loss function",
+      "An activation function"
+    ],
+    "correct_answer": "A mechanism to weigh importance of different input parts",
+    "explanation": "Attention allows models to focus on relevant parts of the input."
+  },
+  {
+    "id": "nlp-004",
+    "skill": "NLP",
+    "category": "Transformers",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is self-attention?",
+    "options": [
+      "Attention to the same sequence",
+      "Attention to another sequence",
+      "No attention",
+      "Random attention"
+    ],
+    "correct_answer": "Attention to the same sequence",
+    "explanation": "Self-attention computes attention weights within the same sequence."
+  },
+  {
+    "id": "nlp-005",
+    "skill": "NLP",
+    "category": "Applications",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is named entity recognition (NER)?",
+    "options": [
+      "Naming files",
+      "Identifying entities in text",
+      "Creating entities",
+      "Deleting entities"
+    ],
+    "correct_answer": "Identifying entities in text",
+    "explanation": "NER identifies and classifies named entities in unstructured text."
+  },
+  {
+    "id": "nlp-006",
+    "skill": "NLP",
+    "category": "Preprocessing",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is TF-IDF?",
+    "options": [
+      "A type of neural network",
+      "Term Frequency-Inverse Document Frequency weighting",
+      "A database query",
+      "A file format"
+    ],
+    "correct_answer": "Term Frequency-Inverse Document Frequency weighting",
+    "explanation": "TF-IDF measures how important a word is to a document in a collection."
+  },
+  {
+    "id": "nlp-007",
+    "skill": "NLP",
+    "category": "Applications",
+    "difficulty": "Intermediate",
+    "type": "scenario",
+    "question": "You need to build a sentiment classifier. Which approach is most appropriate?",
+    "options": [
+      "Rule-based keyword matching only",
+      "Pre-trained transformer fine-tuned on review data",
+      "Random forest on raw text",
+      "Clustering without labels"
+    ],
+    "correct_answer": "Pre-trained transformer fine-tuned on review data",
+    "explanation": "Fine-tuning transformers is the most effective approach for text classification."
+  },
+  {
+    "id": "nlp-008",
+    "skill": "NLP",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the key innovation of the Transformer architecture?",
+    "options": [
+      "Recurrent connections",
+      "Self-attention replacing recurrence",
+      "Convolutional layers",
+      "Memory networks"
+    ],
+    "correct_answer": "Self-attention replacing recurrence",
+    "explanation": "Transformers use self-attention instead of recurrence for parallel processing."
+  },
+  {
+    "id": "cv-001",
+    "skill": "Computer Vision",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is image classification?",
+    "options": [
+      "Segmenting images",
+      "Assigning a label to an entire image",
+      "Detecting objects",
+      "Generating images"
+    ],
+    "correct_answer": "Assigning a label to an entire image",
+    "explanation": "Image classification assigns a single category label to an image."
+  },
+  {
+    "id": "cv-002",
+    "skill": "Computer Vision",
+    "category": "Architectures",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the role of pooling layers in CNNs?",
+    "options": [
+      "Adding parameters",
+      "Reducing spatial dimensions",
+      "Increasing depth",
+      "Normalization"
+    ],
+    "correct_answer": "Reducing spatial dimensions",
+    "explanation": "Pooling layers downsample feature maps to reduce computation and overfitting."
+  },
+  {
+    "id": "cv-003",
+    "skill": "Computer Vision",
+    "category": "Detection",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the difference between object detection and image classification?",
+    "options": [
+      "No difference",
+      "Detection localizes and classifies multiple objects classification assigns one label",
+      "Detection is faster",
+      "Classification uses more parameters"
+    ],
+    "correct_answer": "Detection localizes and classifies multiple objects classification assigns one label",
+    "explanation": "Object detection provides bounding boxes and labels for multiple objects."
+  },
+  {
+    "id": "cv-004",
+    "skill": "Computer Vision",
+    "category": "Architectures",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is transfer learning in computer vision?",
+    "options": [
+      "Transferring images between devices",
+      "Using a pre-trained model as a starting point for a new task",
+      "Moving data between servers",
+      "Copying model weights"
+    ],
+    "correct_answer": "Using a pre-trained model as a starting point for a new task",
+    "explanation": "Transfer learning reuses models trained on large datasets like ImageNet."
+  },
+  {
+    "id": "cv-005",
+    "skill": "Computer Vision",
+    "category": "Applications",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is semantic segmentation?",
+    "options": [
+      "Separating image into objects",
+      "Classifying each pixel in an image",
+      "Detecting edges",
+      "Enhancing resolution"
+    ],
+    "correct_answer": "Classifying each pixel in an image",
+    "explanation": "Semantic segmentation assigns a class label to every pixel in an image."
+  },
+  {
+    "id": "cv-006",
+    "skill": "Computer Vision",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "scenario",
+    "question": "Your defect detection model misses rare defects. What should you do?",
+    "options": [
+      "Increase model size",
+      "Use data augmentation and focal loss for rare classes",
+      "Remove augmentation",
+      "Reduce training data"
+    ],
+    "correct_answer": "Use data augmentation and focal loss for rare classes",
+    "explanation": "Data augmentation and focal loss help models learn rare but important patterns."
+  },
+  {
+    "id": "cv-007",
+    "skill": "Computer Vision",
+    "category": "Preprocessing",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "Why is data augmentation important for computer vision?",
+    "options": [
+      "Makes training slower",
+      "Increases effective training dataset size by transforming images",
+      "Reduces model accuracy",
+      "Increases inference time"
+    ],
+    "correct_answer": "Increases effective training dataset size by transforming images",
+    "explanation": "Augmentation creates varied training samples to improve generalization."
+  },
+  {
+    "id": "cv-008",
+    "skill": "Computer Vision",
+    "category": "Detection",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is IoU (Intersection over Union)?",
+    "options": [
+      "A loss function",
+      "A metric measuring overlap between predicted and ground truth boxes",
+      "A data loading technique",
+      "An optimizer"
+    ],
+    "correct_answer": "A metric measuring overlap between predicted and ground truth boxes",
+    "explanation": "IoU measures the overlap between predicted and actual bounding boxes."
+  },
+  {
+    "id": "fastapi-001",
+    "skill": "FastAPI",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is FastAPI?",
+    "options": [
+      "A database",
+      "A modern Python web framework for building APIs",
+      "A JavaScript library",
+      "A testing tool"
+    ],
+    "correct_answer": "A modern Python web framework for building APIs",
+    "explanation": "FastAPI is a high-performance Python framework for building REST APIs."
+  },
+  {
+    "id": "fastapi-002",
+    "skill": "FastAPI",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "How do you define a GET endpoint in FastAPI?",
+    "options": [
+      "@app.get path",
+      "@app.route path",
+      "def get path",
+      "@get path"
+    ],
+    "correct_answer": "@app.get path",
+    "explanation": "FastAPI uses decorators like @app.get() to define routes."
+  },
+  {
+    "id": "fastapi-003",
+    "skill": "FastAPI",
+    "category": "Data",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is Pydantic used for in FastAPI?",
+    "options": [
+      "Database queries",
+      "Data validation and serialization",
+      "HTML templating",
+      "File storage"
+    ],
+    "correct_answer": "Data validation and serialization",
+    "explanation": "Pydantic validates request/response data using Python type hints."
+  },
+  {
+    "id": "fastapi-004",
+    "skill": "FastAPI",
+    "category": "Async",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "Why use async def instead of def for endpoints?",
+    "options": [
+      "It is required",
+      "For non-blocking I/O operations",
+      "It is faster for CPU-bound tasks",
+      "No difference"
+    ],
+    "correct_answer": "For non-blocking I/O operations",
+    "explanation": "async def enables non-blocking operations improving performance for I/O-bound tasks."
+  },
+  {
+    "id": "fastapi-005",
+    "skill": "FastAPI",
+    "category": "Dependencies",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is dependency injection in FastAPI?",
+    "options": [
+      "Importing modules",
+      "Automatically providing required resources to endpoints",
+      "A design pattern",
+      "A testing tool"
+    ],
+    "correct_answer": "Automatically providing required resources to endpoints",
+    "explanation": "FastAPI dependency injection system provides resources like database connections."
+  },
+  {
+    "id": "fastapi-006",
+    "skill": "FastAPI",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "How does FastAPI handle path parameters?",
+    "options": [
+      "Query strings",
+      "Variable parts of URL path defined in function signature",
+      "Headers",
+      "Cookies"
+    ],
+    "correct_answer": "Variable parts of URL path defined in function signature",
+    "explanation": "Path parameters are extracted from URL and injected via function arguments."
+  },
+  {
+    "id": "fastapi-007",
+    "skill": "FastAPI",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is the default port for uvicorn?",
+    "options": [
+      "3000",
+      "5000",
+      "8000",
+      "8080"
+    ],
+    "correct_answer": "8000",
+    "explanation": "uvicorn defaults to port 8000 when not specified."
+  },
+  {
+    "id": "fastapi-008",
+    "skill": "FastAPI",
+    "category": "Testing",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "How do you test FastAPI endpoints?",
+    "options": [
+      "Postman only",
+      "TestClient from fastapi.testclient",
+      "curl commands only",
+      "Browser only"
+    ],
+    "correct_answer": "TestClient from fastapi.testclient",
+    "explanation": "FastAPI provides TestClient for automated endpoint testing."
+  },
+  {
+    "id": "react-001",
+    "skill": "React",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is a React component?",
+    "options": [
+      "A CSS class",
+      "A reusable piece of UI that returns JSX",
+      "A database table",
+      "A file type"
+    ],
+    "correct_answer": "A reusable piece of UI that returns JSX",
+    "explanation": "Components are the building blocks of React applications."
+  },
+  {
+    "id": "react-002",
+    "skill": "React",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is JSX?",
+    "options": [
+      "A new programming language",
+      "JavaScript XML syntax extension for writing HTML in JS",
+      "A CSS framework",
+      "A testing library"
+    ],
+    "correct_answer": "JavaScript XML syntax extension for writing HTML in JS",
+    "explanation": "JSX allows writing HTML-like syntax directly in JavaScript."
+  },
+  {
+    "id": "react-003",
+    "skill": "React",
+    "category": "State",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the purpose of useState?",
+    "options": [
+      "Fetching data",
+      "Managing component state with re-rendering on change",
+      "Styling components",
+      "Routing navigation"
+    ],
+    "correct_answer": "Managing component state with re-rendering on change",
+    "explanation": "useState is a Hook that adds state to functional components."
+  },
+  {
+    "id": "react-004",
+    "skill": "React",
+    "category": "Hooks",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "When does useEffect run?",
+    "options": [
+      "Only once",
+      "After every render by default",
+      "Only on first render",
+      "Never automatically"
+    ],
+    "correct_answer": "After every render by default",
+    "explanation": "useEffect runs after every render unless dependency array is specified."
+  },
+  {
+    "id": "react-005",
+    "skill": "React",
+    "category": "Performance",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is React.memo used for?",
+    "options": [
+      "Memoizing database queries",
+      "Preventing unnecessary re-renders of components",
+      "Storing component state",
+      "Lazy loading components"
+    ],
+    "correct_answer": "Preventing unnecessary re-renders of components",
+    "explanation": "React.memo memoizes component to skip re-renders when props haven't changed."
+  },
+  {
+    "id": "react-006",
+    "skill": "React",
+    "category": "State",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is prop drilling?",
+    "options": [
+      "Passing props through many nested components",
+      "Creating new props",
+      "Deleting props",
+      "Merging props"
+    ],
+    "correct_answer": "Passing props through many nested components",
+    "explanation": "Prop drilling is passing data through components that don't need it."
+  },
+  {
+    "id": "react-007",
+    "skill": "React",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is the virtual DOM?",
+    "options": [
+      "A copy of the real DOM used for efficient updates",
+      "A database",
+      "A browser extension",
+      "A CSS framework"
+    ],
+    "correct_answer": "A copy of the real DOM used for efficient updates",
+    "explanation": "React uses virtual DOM to minimize expensive real DOM operations."
+  },
+  {
+    "id": "react-008",
+    "skill": "React",
+    "category": "Hooks",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is the useCallback Hook for?",
+    "options": [
+      "Making HTTP requests",
+      "Memoizing callback functions to prevent unnecessary re-creations",
+      "Storing form data",
+      "Managing CSS"
+    ],
+    "correct_answer": "Memoizing callback functions to prevent unnecessary re-creations",
+    "explanation": "useCallback returns a memoized version of a callback function."
+  },
+  {
+    "id": "git-001",
+    "skill": "Git",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What does git clone do?",
+    "options": [
+      "Creates a new branch",
+      "Creates a local copy of a remote repository",
+      "Deletes a repository",
+      "Merges branches"
+    ],
+    "correct_answer": "Creates a local copy of a remote repository",
+    "explanation": "git clone downloads a repository and its full history."
+  },
+  {
+    "id": "git-002",
+    "skill": "Git",
+    "category": "Branching",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is a Git branch?",
+    "options": [
+      "A copy of the repository",
+      "An independent line of development",
+      "A tag for releases",
+      "A backup"
+    ],
+    "correct_answer": "An independent line of development",
+    "explanation": "Branches allow parallel development without affecting the main codebase."
+  },
+  {
+    "id": "git-003",
+    "skill": "Git",
+    "category": "Merging",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is a merge conflict?",
+    "options": [
+      "Network error",
+      "When Git cannot automatically merge changes from different branches",
+      "A syntax error",
+      "A compilation error"
+    ],
+    "correct_answer": "When Git cannot automatically merge changes from different branches",
+    "explanation": "Merge conflicts occur when the same lines are changed in different branches."
+  },
+  {
+    "id": "git-004",
+    "skill": "Git",
+    "category": "Staging",
+    "difficulty": "Beginner",
+    "type": "code",
+    "question": "What does git add . do?",
+    "options": [
+      "Commits all changes",
+      "Stages all changes in the current directory",
+      "Deletes all files",
+      "Creates a new branch"
+    ],
+    "correct_answer": "Stages all changes in the current directory",
+    "explanation": "git add . stages all modified and new files for the next commit."
+  },
+  {
+    "id": "git-005",
+    "skill": "Git",
+    "category": "History",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What does git log --oneline show?",
+    "options": [
+      "Full diff of all commits",
+      "One-line summary of each commit",
+      "Only the latest commit",
+      "Branch information"
+    ],
+    "correct_answer": "One-line summary of each commit",
+    "explanation": "--oneline flag compresses each commit to a single line with hash and message."
+  },
+  {
+    "id": "git-006",
+    "skill": "Git",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is a rebase?",
+    "options": [
+      "Changing the base branch",
+      "Moving or combining a sequence of commits to a new base commit",
+      "Deleting commits",
+      "Creating tags"
+    ],
+    "correct_answer": "Moving or combining a sequence of commits to a new base commit",
+    "explanation": "Rebase replays commits on top of another base for a cleaner history."
+  },
+  {
+    "id": "git-007",
+    "skill": "Git",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is the staging area in Git?",
+    "options": [
+      "A server",
+      "An intermediate area where changes are prepared before committing",
+      "A backup location",
+      "A branch"
+    ],
+    "correct_answer": "An intermediate area where changes are prepared before committing",
+    "explanation": "The staging area (index) holds changes that will be included in the next commit."
+  },
+  {
+    "id": "git-008",
+    "skill": "Git",
+    "category": "Remote",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What does git push do?",
+    "options": [
+      "Downloads changes from remote",
+      "Uploads local commits to a remote repository",
+      "Creates a branch",
+      "Merges changes"
+    ],
+    "correct_answer": "Uploads local commits to a remote repository",
+    "explanation": "git push uploads local branch commits to the corresponding remote branch."
+  },
+  {
+    "id": "docker-001",
+    "skill": "Docker",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is a Docker image?",
+    "options": [
+      "A running container",
+      "A read-only template for creating containers",
+      "A virtual machine",
+      "A database backup"
+    ],
+    "correct_answer": "A read-only template for creating containers",
+    "explanation": "Docker images contain application code, runtime, and dependencies."
+  },
+  {
+    "id": "docker-002",
+    "skill": "Docker",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is a Docker container?",
+    "options": [
+      "A physical server",
+      "A running instance of a Docker image",
+      "A file system",
+      "A network protocol"
+    ],
+    "correct_answer": "A running instance of a Docker image",
+    "explanation": "Containers are lightweight, isolated processes created from images."
+  },
+  {
+    "id": "docker-003",
+    "skill": "Docker",
+    "category": "Files",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is a Dockerfile?",
+    "options": [
+      "A configuration file for Docker Desktop",
+      "A text file with instructions to build a Docker image",
+      "A log file",
+      "A database schema"
+    ],
+    "correct_answer": "A text file with instructions to build a Docker image",
+    "explanation": "Dockerfile defines the steps to create a custom Docker image."
+  },
+  {
+    "id": "docker-004",
+    "skill": "Docker",
+    "category": "Compose",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is Docker Compose?",
+    "options": [
+      "A compression tool",
+      "A tool for defining and running multi-container Docker applications",
+      "An image builder",
+      "A log viewer"
+    ],
+    "correct_answer": "A tool for defining and running multi-container Docker applications",
+    "explanation": "Docker Compose uses a YAML file to configure and run multiple containers."
+  },
+  {
+    "id": "docker-005",
+    "skill": "Docker",
+    "category": "Networking",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "How do containers communicate in Docker?",
+    "options": [
+      "Through file sharing",
+      "Through Docker networks and port mapping",
+      "Through shared memory",
+      "They cannot communicate"
+    ],
+    "correct_answer": "Through Docker networks and port mapping",
+    "explanation": "Docker provides bridge, overlay, and host networks for container communication."
+  },
+  {
+    "id": "docker-006",
+    "skill": "Docker",
+    "category": "Volumes",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What are Docker volumes used for?",
+    "options": [
+      "Increasing CPU",
+      "Persistent data storage beyond container lifecycle",
+      "Logging",
+      "Authentication"
+    ],
+    "correct_answer": "Persistent data storage beyond container lifecycle",
+    "explanation": "Volumes persist data even when containers are stopped or removed."
+  },
+  {
+    "id": "docker-007",
+    "skill": "Docker",
+    "category": "Advanced",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is a multi-stage Docker build?",
+    "options": [
+      "Building in multiple servers",
+      "Using multiple FROM statements to reduce final image size",
+      "Running multiple containers",
+      "Using multiple Dockerfiles"
+    ],
+    "correct_answer": "Using multiple FROM statements to reduce final image size",
+    "explanation": "Multi-stage builds copy only necessary artifacts to the final image."
+  },
+  {
+    "id": "docker-008",
+    "skill": "Docker",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What command runs a Docker container?",
+    "options": [
+      "docker build",
+      "docker run",
+      "docker create",
+      "docker pull"
+    ],
+    "correct_answer": "docker run",
+    "explanation": "docker run creates and starts a container from an image."
+  },
+  {
+    "id": "cloud-001",
+    "skill": "Cloud",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is cloud computing?",
+    "options": [
+      "Using physical servers only",
+      "Delivery of computing services over the internet",
+      "A type of database",
+      "Local file storage"
+    ],
+    "correct_answer": "Delivery of computing services over the internet",
+    "explanation": "Cloud computing provides on-demand resources via the internet."
+  },
+  {
+    "id": "cloud-002",
+    "skill": "Cloud",
+    "category": "Services",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is IaaS?",
+    "options": [
+      "Internet as a Service",
+      "Infrastructure as a Service",
+      "Information as a Service",
+      "Integration as a Service"
+    ],
+    "correct_answer": "Infrastructure as a Service",
+    "explanation": "IaaS provides virtualized computing resources like VMs and storage."
+  },
+  {
+    "id": "cloud-003",
+    "skill": "Cloud",
+    "category": "Services",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is PaaS?",
+    "options": [
+      "Platform as a Service",
+      "Password as a Service",
+      "Protocol as a Service",
+      "Process as a Service"
+    ],
+    "correct_answer": "Platform as a Service",
+    "explanation": "PaaS provides a platform for developing and deploying applications."
+  },
+  {
+    "id": "cloud-004",
+    "skill": "Cloud",
+    "category": "AWS",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is Amazon S3?",
+    "options": [
+      "A compute service",
+      "An object storage service",
+      "A database service",
+      "A networking service"
+    ],
+    "correct_answer": "An object storage service",
+    "explanation": "S3 provides scalable object storage for any type of data."
+  },
+  {
+    "id": "cloud-005",
+    "skill": "Cloud",
+    "category": "Architecture",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is serverless computing?",
+    "options": [
+      "Using no servers",
+      "Running code without managing server infrastructure",
+      "Local computing",
+      "Edge computing only"
+    ],
+    "correct_answer": "Running code without managing server infrastructure",
+    "explanation": "Serverless lets developers focus on code while the cloud provider manages infrastructure."
+  },
+  {
+    "id": "cloud-006",
+    "skill": "Cloud",
+    "category": "Security",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is an IAM role in cloud?",
+    "options": [
+      "A user account",
+      "An entity defining permissions for AWS services and users",
+      "A firewall rule",
+      "An encryption key"
+    ],
+    "correct_answer": "An entity defining permissions for AWS services and users",
+    "explanation": "IAM roles control what actions are allowed on which resources."
+  },
+  {
+    "id": "cloud-007",
+    "skill": "Cloud",
+    "category": "Architecture",
+    "difficulty": "Advanced",
+    "type": "scenario",
+    "question": "Your application needs to handle sudden traffic spikes. Which cloud pattern is best?",
+    "options": [
+      "Single server scaling",
+      "Auto-scaling with load balancers",
+      "Manual server provisioning",
+      "Fixed capacity"
+    ],
+    "correct_answer": "Auto-scaling with load balancers",
+    "explanation": "Auto-scaling dynamically adjusts capacity based on traffic demand."
+  },
+  {
+    "id": "cloud-008",
+    "skill": "Cloud",
+    "category": "Fundamentals",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is a region in cloud computing?",
+    "options": [
+      "A country",
+      "A geographic area with data centers",
+      "A type of server",
+      "A security zone"
+    ],
+    "correct_answer": "A geographic area with data centers",
+    "explanation": "Regions are geographic areas containing multiple availability zones."
+  },
+  {
+    "id": "dsa-001",
+    "skill": "Data Structures and Algorithms",
+    "category": "Arrays",
+    "difficulty": "Beginner",
+    "type": "code",
+    "question": "What is the time complexity of accessing an element by index in an array?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correct_answer": "O(1)",
+    "explanation": "Arrays provide constant-time random access by index."
+  },
+  {
+    "id": "dsa-002",
+    "skill": "Data Structures and Algorithms",
+    "category": "Linked Lists",
+    "difficulty": "Beginner",
+    "type": "mcq",
+    "question": "What is the advantage of a linked list over an array?",
+    "options": [
+      "Faster access by index",
+      "Efficient insertion and deletion at any position",
+      "Uses less memory",
+      "Better cache performance"
+    ],
+    "correct_answer": "Efficient insertion and deletion at any position",
+    "explanation": "Linked lists allow O(1) insertion/deletion at a known position."
+  },
+  {
+    "id": "dsa-003",
+    "skill": "Data Structures and Algorithms",
+    "category": "Trees",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is a binary search tree?",
+    "options": [
+      "A tree where each node has exactly two children",
+      "A sorted tree where left child is less than parent and right child is greater",
+      "A tree with only leaf nodes",
+      "A complete graph"
+    ],
+    "correct_answer": "A sorted tree where left child is less than parent and right child is greater",
+    "explanation": "BST maintains sorted order for efficient search, insert, and delete operations."
+  },
+  {
+    "id": "dsa-004",
+    "skill": "Data Structures and Algorithms",
+    "category": "Sorting",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is the average time complexity of QuickSort?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correct_answer": "O(n log n)",
+    "explanation": "QuickSort has O(n log n) average case with O(n^2) worst case."
+  },
+  {
+    "id": "dsa-005",
+    "skill": "Data Structures and Algorithms",
+    "category": "Graphs",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What algorithm finds the shortest path in a weighted graph with non-negative edges?",
+    "options": [
+      "DFS",
+      "BFS",
+      "Dijkstra's Algorithm",
+      "Kruskal's Algorithm"
+    ],
+    "correct_answer": "Dijkstra's Algorithm",
+    "explanation": "Dijkstra's algorithm finds shortest paths from a source to all vertices."
+  },
+  {
+    "id": "dsa-006",
+    "skill": "Data Structures and Algorithms",
+    "category": "Hashing",
+    "difficulty": "Intermediate",
+    "type": "mcq",
+    "question": "What is a hash table?",
+    "options": [
+      "A sorted array",
+      "A data structure mapping keys to values using a hash function",
+      "A type of tree",
+      "A graph representation"
+    ],
+    "correct_answer": "A data structure mapping keys to values using a hash function",
+    "explanation": "Hash tables provide average O(1) lookup, insert, and delete operations."
+  },
+  {
+    "id": "dsa-007",
+    "skill": "Data Structures and Algorithms",
+    "category": "Recursion",
+    "difficulty": "Intermediate",
+    "type": "code",
+    "question": "What does this function return? def f(n): return n if n<=1 else f(n-1)+f(n-2); print(f(5))",
+    "options": [
+      "5",
+      "8",
+      "10",
+      "13"
+    ],
+    "correct_answer": "8",
+    "explanation": "This is the Fibonacci sequence: f(5) = 5."
+  },
+  {
+    "id": "dsa-008",
+    "skill": "Data Structures and Algorithms",
+    "category": "Dynamic Programming",
+    "difficulty": "Advanced",
+    "type": "mcq",
+    "question": "What is dynamic programming?",
+    "options": [
+      "A programming paradigm",
+      "An optimization technique that stores solutions to overlapping subproblems",
+      "A sorting algorithm",
+      "A data structure"
+    ],
+    "correct_answer": "An optimization technique that stores solutions to overlapping subproblems",
+    "explanation": "DP avoids redundant computation by memoizing or tabulating subproblem results."
+  }
+]

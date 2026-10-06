@@ -1,0 +1,11 @@
+{
+  "local-user": {
+    "skills": {},
+    "summary": {
+      "total_detected": 0,
+      "total_verified": 0,
+      "avg_score": 0,
+      "verification_rate": 0
+    }
+  }
+}

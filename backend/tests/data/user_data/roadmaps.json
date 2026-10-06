@@ -1,0 +1,85 @@
+{
+  "local-user": [
+    {
+      "id": "7bed37a3-b18c-43e3-9b7e-1007cf5681e6",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-10-06T20:03:44.621164"
+    },
+    {
+      "id": "0b861aa1-724e-4077-b63f-ee5454d411ab",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-10-06T20:02:57.099626"
+    },
+    {
+      "id": "40f26744-0003-4098-8f4a-69fb21d1df83",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-10-06T19:28:42.163649"
+    },
+    {
+      "id": "232dc4c0-a465-4bcb-828c-c991f256be88",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-09-19T19:25:22.027143"
+    },
+    {
+      "id": "c3d5138f-4584-4143-b201-2a9aa7cb027a",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-09-19T18:42:32.498236"
+    },
+    {
+      "id": "31f9932d-ef9f-4933-b597-e0e7be1d2faa",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-09-19T17:47:38.315355"
+    },
+    {
+      "id": "6dbc0a8c-5efd-4822-b1d8-838a3c6410df",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-09-19T17:40:31.323682"
+    },
+    {
+      "id": "e0fa6fac-d178-48c9-81a7-4788d5e60723",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-09-19T04:02:52.849890"
+    },
+    {
+      "id": "f41a9689-a6d4-4026-8148-27de8093105e",
+      "user_id": "local-user",
+      "target_role": "AI Engineer",
+      "roadmap_data": {
+        "skills": []
+      },
+      "created_at": "2026-09-19T04:01:31.473074"
+    }
+  ]
+}

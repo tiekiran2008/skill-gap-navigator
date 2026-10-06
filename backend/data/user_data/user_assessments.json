@@ -1,0 +1,66 @@
+[
+  {
+    "assessment_id": "89a7df27-cef5-4e7b-a06a-559a2d41c49d",
+    "user_id": "local-user",
+    "skill": "Python",
+    "difficulty": "BEGINNER",
+    "question_count": 3,
+    "questions": [
+      {
+        "question_id": "py-002",
+        "skill": "Python",
+        "category": "Fundamentals",
+        "difficulty": "Beginner",
+        "type": "mcq",
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+          "function",
+          "func",
+          "def",
+          "define"
+        ],
+        "correct_answer": "def",
+        "explanation": "Python uses def keyword to define functions."
+      },
+      {
+        "question_id": "py-010",
+        "skill": "Python",
+        "category": "Data Structures",
+        "difficulty": "Beginner",
+        "type": "mcq",
+        "question": "Which data structure uses key-value pairs?",
+        "options": [
+          "List",
+          "Tuple",
+          "Dictionary",
+          "Set"
+        ],
+        "correct_answer": "Dictionary",
+        "explanation": "Dictionaries store data as key-value pairs."
+      },
+      {
+        "question_id": "py-001",
+        "skill": "Python",
+        "category": "Fundamentals",
+        "difficulty": "Beginner",
+        "type": "mcq",
+        "question": "What is the output of: print(type(5))?",
+        "options": [
+          "<class int>",
+          "<class float>",
+          "<class str>",
+          "<class number>"
+        ],
+        "correct_answer": "<class int>",
+        "explanation": "5 is an integer literal so type() returns int."
+      }
+    ],
+    "answers": {},
+    "status": "in_progress",
+    "score": null,
+    "total_correct": null,
+    "total_questions": 3,
+    "completed_at": null,
+    "created_at": "2026-10-06T14:19:18.952618+00:00"
+  }
+]

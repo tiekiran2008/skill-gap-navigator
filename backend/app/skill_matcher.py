@@ -10,6 +10,7 @@ from sentence_transformers import SentenceTransformer, util
 import numpy as np
 
 _model = None
+_emb_cache = {}
 
 SIMILARITY_THRESHOLD = 0.65
 EXACT_MATCH_SCORE = 1.0
@@ -21,6 +22,13 @@ def get_model():
     if _model is None:
         _model = SentenceTransformer("all-MiniLM-L6-v2")
     return _model
+
+
+def _get_embedding(text):
+    if text not in _emb_cache:
+        model = get_model()
+        _emb_cache[text] = model.encode(text, convert_to_tensor=True)
+    return _emb_cache[text]
 
 
 def load_careers():
@@ -75,9 +83,8 @@ def match_single_skill(user_skill, role_skill):
             if alias.lower() == role_lower:
                 return ALIAS_MATCH_SCORE, "alias"
 
-    model = get_model()
-    user_emb = model.encode(user_resolved, convert_to_tensor=True)
-    role_emb = model.encode(role_resolved, convert_to_tensor=True)
+    user_emb = _get_embedding(user_resolved)
+    role_emb = _get_embedding(role_resolved)
     sim = float(util.cos_sim(user_emb, role_emb)[0])
 
     if sim >= SIMILARITY_THRESHOLD:
@@ -184,13 +191,15 @@ def match_role_batch(user_skills, role):
 
     semantic_scores = {}
     if needs_semantic:
-        model = get_model()
         user_lower_list = [u for _, u in resolved_user]
         role_lower_list = [r for _, r in needs_semantic]
 
         if user_lower_list and role_lower_list:
-            user_embs = model.encode(user_lower_list, convert_to_tensor=True)
-            role_embs = model.encode(role_lower_list, convert_to_tensor=True)
+            user_embs = [_get_embedding(u) for u in user_lower_list]
+            role_embs = [_get_embedding(r) for r in role_lower_list]
+            import torch
+            user_embs = torch.stack(user_embs)
+            role_embs = torch.stack(role_embs)
             sim_matrix = util.cos_sim(role_embs, user_embs)
 
             for i, (r_orig, _) in enumerate(needs_semantic):

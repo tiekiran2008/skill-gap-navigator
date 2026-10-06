@@ -1,0 +1,205 @@
+{
+  "local-user": [
+    {
+      "id": "b1a6b66e-7e65-4d33-b0ad-0f36d2c3328f",
+      "user_id": "local-user",
+      "role": "assistant",
+      "content": "Hi there!",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-10-06T20:03:44.677377"
+    },
+    {
+      "id": "44abe5ec-24fc-4152-bcc0-49f23cba9400",
+      "user_id": "local-user",
+      "role": "user",
+      "content": "Hello",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-10-06T20:03:44.658373"
+    }
+  ],
+  "user": [
+    {
+      "id": "c232d8e9-9e29-4b43-bfa3-9b0cc7dc40d8",
+      "user_id": "user",
+      "role": "hello",
+      "content": "",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-10-06T19:28:22.667982"
+    },
+    {
+      "id": "2c361c3b-ceee-4bf7-8dfc-8d84ea861667",
+      "user_id": "user",
+      "role": "hello",
+      "content": "",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-09-19T19:25:12.332743"
+    },
+    {
+      "id": "569f39f4-7d76-48cf-9c72-5537b356d2fd",
+      "user_id": "user",
+      "role": "hello",
+      "content": "",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-09-19T18:42:22.330843"
+    },
+    {
+      "id": "e769ec6d-ed79-4bf5-9bfd-26533dc7e934",
+      "user_id": "user",
+      "role": "hello",
+      "content": "",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-09-19T17:47:23.485777"
+    },
+    {
+      "id": "7e7abb12-45c8-4703-9af1-52b03f98ead0",
+      "user_id": "user",
+      "role": "hello",
+      "content": "",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-09-19T17:40:21.409046"
+    },
+    {
+      "id": "86ad910f-bb27-4987-9e57-c9cb1e08e77e",
+      "user_id": "user",
+      "role": "hello",
+      "content": "",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-09-19T04:02:37.739678"
+    },
+    {
+      "id": "186b14a8-b5dd-4b1e-bea1-443f83c50e50",
+      "user_id": "user",
+      "role": "hello",
+      "content": "",
+      "tools_used": [],
+      "relevant_skills": [],
+      "suggested_action": "",
+      "source": "fallback",
+      "created_at": "2026-09-19T04:01:16.123761"
+    }
+  ],
+  "assistant": [
+    {
+      "id": "3bde5c83-ed4c-4390-a300-7c1742f335fe",
+      "user_id": "assistant",
+      "role": "Hi there! I'm your Career Development Assistant.\n\n\nAsk me anything about your career path, skill gaps, or learning progress!",
+      "content": "",
+      "tools_used": [
+        "get_user_profile",
+        "get_progress"
+      ],
+      "relevant_skills": [],
+      "suggested_action": null,
+      "source": "fallback",
+      "created_at": "2026-10-06T19:28:22.682339"
+    },
+    {
+      "id": "287b268e-4321-4b98-a09e-b9f017ec5cb3",
+      "user_id": "assistant",
+      "role": "Hi there! I'm your Career Development Assistant.\n\n\nAsk me anything about your career path, skill gaps, or learning progress!",
+      "content": "",
+      "tools_used": [
+        "get_user_profile",
+        "get_progress"
+      ],
+      "relevant_skills": [],
+      "suggested_action": null,
+      "source": "fallback",
+      "created_at": "2026-09-19T19:25:12.348841"
+    },
+    {
+      "id": "f240050f-0c9e-4e3e-bdd5-f5ca76b6e7a7",
+      "user_id": "assistant",
+      "role": "Hi there! I'm your Career Development Assistant.\n\n\nAsk me anything about your career path, skill gaps, or learning progress!",
+      "content": "",
+      "tools_used": [
+        "get_user_profile",
+        "get_progress"
+      ],
+      "relevant_skills": [],
+      "suggested_action": null,
+      "source": "fallback",
+      "created_at": "2026-09-19T18:42:22.346544"
+    },
+    {
+      "id": "4a540ca0-a3ca-44ef-9452-2c0e8d32d947",
+      "user_id": "assistant",
+      "role": "Hi there! I'm your Career Development Assistant.\n\n\nAsk me anything about your career path, skill gaps, or learning progress!",
+      "content": "",
+      "tools_used": [
+        "get_user_profile",
+        "get_progress"
+      ],
+      "relevant_skills": [],
+      "suggested_action": null,
+      "source": "fallback",
+      "created_at": "2026-09-19T17:47:23.513517"
+    },
+    {
+      "id": "626bc616-6d33-482a-b7e0-efcf8c874c49",
+      "user_id": "assistant",
+      "role": "Hi there! I'm your Career Development Assistant.\n\n\nAsk me anything about your career path, skill gaps, or learning progress!",
+      "content": "",
+      "tools_used": [
+        "get_user_profile",
+        "get_progress"
+      ],
+      "relevant_skills": [],
+      "suggested_action": null,
+      "source": "fallback",
+      "created_at": "2026-09-19T17:40:21.425723"
+    },
+    {
+      "id": "8d16148e-e20c-4f2c-a02d-39d1138890f1",
+      "user_id": "assistant",
+      "role": "Hi there! I'm your Career Development Assistant.\n\nYou have **2 skills** on file.\n\nAsk me anything about your career path, skill gaps, or learning progress!",
+      "content": "",
+      "tools_used": [
+        "get_user_profile",
+        "get_progress"
+      ],
+      "relevant_skills": [],
+      "suggested_action": null,
+      "source": "fallback",
+      "created_at": "2026-09-19T04:02:37.764068"
+    },
+    {
+      "id": "c2b4f68c-42dd-4b48-9e05-1dc6f187e13b",
+      "user_id": "assistant",
+      "role": "Hi there! I'm your Career Development Assistant.\n\n\nAsk me anything about your career path, skill gaps, or learning progress!",
+      "content": "",
+      "tools_used": [
+        "get_user_profile",
+        "get_progress"
+      ],
+      "relevant_skills": [],
+      "suggested_action": null,
+      "source": "fallback",
+      "created_at": "2026-09-19T04:01:16.172654"
+    }
+  ]
+}
